@@ -1,5 +1,5 @@
 #
-# --- PID {PID} --- BECM Battery Section {NUM} Temp ---
+# --- PID {PID} --- {USRPID} ---
 #
 class{ID}=org.prowl.torque.widgets.Readout
 displayScale{ID}=0.5
@@ -8,7 +8,7 @@ forcedmin{ID}=auto
 forcedmax{ID}=0.0
 lowFlash{ID}=-10.
 highFlash{ID}=40.
-label{ID}=Batt Sec {NUM} Temp
+label{ID}={LBL}
 min{ID}=-40.0
 max{ID}=100.0
 mode{ID}=0
@@ -18,7 +18,7 @@ pidUUIDa{ID}=
 scale{ID}=1.0
 type{ID}=7
 unit{ID}=\u00B0C
-userPid{ID}=*BECM Battery Section {NUM} Temp
-userPidKey{ID}=*BECM Battery Section {NUM} Temp/0
+userPid{ID}={USRPID}
+userPidKey{ID}={USRPID}/0
 x{ID}={XCOORD}
 y{ID}={YCOORD}
