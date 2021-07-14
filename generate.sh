@@ -28,7 +28,7 @@ for id in $(seq 0 95); do
 
     # --- write .dash file
 
-    cat template.dash |\
+    cat template-cell-voltage.dash |\
         sed "s/{ID}/$id/g" |\
         sed "s/{NUM}/$num/g" |\
         sed "s/{PID}/$pid/g" |\
