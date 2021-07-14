@@ -1,16 +1,16 @@
 #
-# --- PID {PID} ---
+# --- PID {PID} --- +Battery Cell Voltage \#{NUM} ---
 #
 class{ID}=org.prowl.torque.widgets.Readout
 displayScale{ID}=0.5
 extraConfigA{ID}=
-forcedmax{ID}=0.0
 forcedmin{ID}=auto
-lowFlash{ID}=2.7
-highFlash{ID}=4.0
+forcedmax{ID}=0.0
+lowFlash{ID}=2.55
+highFlash{ID}=4.2
 label{ID}=Cell {NUM}
-min{ID}=2.5
-max{ID}=4.2
+min{ID}=2.50
+max{ID}=4.25
 mode{ID}=0
 numberDecimals{ID}=3
 pidUUIDa{ID}=
