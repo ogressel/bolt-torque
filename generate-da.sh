@@ -17,8 +17,6 @@ nid=0
 x0=$((24-xdisp))
 y0=96
 
-cid=0
-
 pids=( 326     2261022 2261023
        2244823 2244824 2244825
        2244826 2244827 2244828
@@ -34,6 +32,8 @@ upids=( "\\\\!Air Temp 0" "*Air Temp 1" "*Air Temp 2"
         "*BECM Battery Section 3 Temp" "*BECM Battery Section 4 Temp"
         "*BECM Battery Section 5 Temp" "*BECM Battery Section 6 Temp"
         "\\\\!Batt Temp" "*BECM Battery Coolant Temp ?" )
+
+cid=0
 
 for id in $(seq 0 10); do
 
@@ -57,6 +57,32 @@ for id in $(seq 0 10); do
         sed "s/{LBL}/$lbl/g" |\
         sed "s/{USRPID}/$upid/g" |\
         sed "s/{PID}/$pid/g" |\
+        sed "s/{XCOORD}/$xcoord/g" |\
+        sed "s/{YCOORD}/$ycoord/g"
+
+done
+
+nid=$((nid+cid))
+
+# ---=== BATTERY HEATER AND COOLANT PUMP ===---
+
+templ=( "heater" "pump" )
+
+cid=0
+
+for id in $(seq 0 1); do
+
+    cid=$((cid+1))
+
+    # --- screen coordinates
+
+    xcoord=$(( x0 + 504 ))
+    ycoord=$(( y0 + 672 + 448*id ))
+
+    # --- write .dash file
+
+    cat template-${templ[$id]}.dash |\
+        sed "s/{ID}/$((id+nid))/g" |\
         sed "s/{XCOORD}/$xcoord/g" |\
         sed "s/{YCOORD}/$ycoord/g"
 
