@@ -12,6 +12,59 @@ ydisp=1920
 
 nid=0
 
+# ---=== AC+DC VOLTAGE/CURRENT/POWER INDICATORS ===---
+
+x0=$(( -2*xdisp + xdisp/2 ))
+y0=96
+
+pids=( 2245483 2245484 15540910 2245480 2245481 15672635 )
+
+lbls=( "DC Volts" "DC Amps" "DC Power"
+       "AC Volts" "AC Amps" "AC Power" )
+
+upids=( "\!Charger HV Voltage" "\!Charger HV Current" "\!Charger HV Power"
+        "*Charger AC Voltage"  "*Charger AC Current"  "*Charger AC Power" )
+
+maxvs=( 500.0 200.0 60.0
+        500.0 40.0 8.0 )
+
+units=( "V", "A", "kW" )
+
+cid=0
+
+for id in $(seq 0 5); do
+
+    cid=$((cid+1))
+
+    # --- lookup labels
+
+    pid=${pids[$id]}
+    lbl=${lbls[$id]}
+    upid=${upids[$id]}
+    maxv=${maxvs[$id]}
+    unit=${units[$id%3]}
+
+    # --- screen coordinates
+
+    xcoord=$(( x0 + 448*$(( id/3-1)) ))
+    ycoord=$(( y0 + 448*$(( id%3  )) ))
+
+    # --- write .dash file
+
+    cat template-power.dash |\
+        sed "s/{ID}/$((id+nid))/g" |\
+        sed "s/{LBL}/$lbl/g" |\
+        sed "s/{USRPID}/$upid/g" |\
+        sed "s/{PID}/$pid/g" |\
+        sed "s/{MAXV}/$maxv/g" |\
+        sed "s/{UNIT}/$unit/g" |\
+        sed "s/{XCOORD}/$xcoord/g" |\
+        sed "s/{YCOORD}/$ycoord/g"
+
+done
+
+nid=$((nid+cid))
+
 # ---=== VARIOUS TEMPERATURE SENSORS ===---
 
 x0=$((24-xdisp))
