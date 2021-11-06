@@ -21,7 +21,7 @@ The `bash` script creates a custom Torque Pro compliant dashboard file that can 
 * Load the script into a text editor and tweak parameters (optional)
 * Run the following command
 ```
-> ./generate-da.sh > Bolt-EV.dash
+> ./generate-da.sh --original > Bolt-EV.dash
 ```
 * Transfer the `Bolt-EV.dash` file (or whatever you choose to name it) to the dashboard folder (i.e., `.torque/dashboards`) on your Android device.
 * Access `Layout Settings` from the gear symbol on the lower left corner of the dashboard screen and pick `Import Layout`.
