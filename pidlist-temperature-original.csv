@@ -1,0 +1,14 @@
+!Air Temp 0,Air Temp 0,0146,(A-40),-40,100,C,7E0
+*Air Temp 1,Air Temp 1,22801E,(A/2)-40,-40,100,C,7E4
+*Air Temp 2,Air Temp 2,22801F,(A/2)-40,-40,100,C,7E4
+*BECM Battery Section 1 Temp,Batt Sec 1 Temp,2240D7,A-40,-40,100,C,7E7
+*BECM Battery Section 2 Temp,Batt Sec 2 Temp,2240D9,A-40,-40,100,C,7E7
+*BECM Battery Section 3 Temp,Batt Sec 3 Temp,2240DB,A-40,-40,100,C,7E7
+*BECM Battery Section 4 Temp,Batt Sec 4 Temp,2240DD,A-40,-40,100,C,7E7
+*BECM Battery Section 5 Temp,Batt Sec 5 Temp,2240DF,A-40,-40,100,C,7E7
+*BECM Battery Section 6 Temp,Batt Sec 6 Temp,2240E1,A-40,-40,100,C,7E7
+*BECM Battery Coolant Temp ?,Batt Coolant Temp ?,2241A4,A-40,-40,100,C,7E7
+*H2 Electronics Temp,Ele.Temp H2,221C43,A-40,-20,100,C,7E0
+*Electronics Temp 2,Ele.Temp 2,221C28,A-40,-20,100,C,7E0
+*Electronics Temp 3,Ele.Temp 3,221C2A,A-40,-20,100,C,7E0
+*Tran Temp,Tran Temp,221940,A-40,-40,100,C,7E1

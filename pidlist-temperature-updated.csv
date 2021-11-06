@@ -1,0 +1,16 @@
+*Air Temp - Ambient 2,Amb Air 2,22232C,(A-40),-40,100,C,7E0
+*Air Temp - Unfiltered,Air Temp Unfilt,22801E,(A/2)-40,-40,100,C,7E4
+*Air Temp - Filtered,Air Temp,22801F,(A/2)-40,-40,100,C,7E4
+*Battery - Module Temp - 1,Batt Mod 1,2240D7,A-40,-40,80,C,7E7
+*Battery - Module Temp - 2,Batt Mod 2,2240D9,A-40,-40,80,C,7E7
+*Battery - Module Temp - 3,Batt Mod 3,2240DB,A-40,-40,80,C,7E7
+*Battery - Module Temp - 4,Batt Mod 4,2240DD,A-40,-40,80,C,7E7
+*Battery - Module Temp - 5,Batt Mod 5,2240DF,A-40,-40,80,C,7E7
+*Battery - Module Temp - 6,Batt Mod 6,2240E1,A-40,-40,80,C,7E7
+!Battery - Coolant Temp,Batt Coolant,2241A4,A-40,-40,100,C,7E4
+*Electronics Coolant Temp,Elec Temp,221C43,A-40,-20,100,C,7E4
+*Motor Inverter Temperature Sensor 2,InvTemp2,221C28,A-40,-40,120,C,7E1
+*Motor Inverter Temperature Sensor 3,InvTemp3,221C2A,A-40,-40,120,C,7E1
+*Motor Temperature,Motor Temp,2228CB,A-40,-40,120,C,7E1
+*Charger - DC Port Temperature,DCC Port Temp,224425,(A-40),-40,80,C,7E4
+!Transmission - Fluid Temperature,Trans Temp,221940,A-40,-40,120,C,7E1

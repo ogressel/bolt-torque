@@ -3,6 +3,35 @@
 # ---=== TorquePro dashboard generator for Bolt EV / Ampera-e ===---
 #
 
+# --- print usage info
+
+if [[ "$#" -ne 1 ]]; then
+    echo "usage: $0 {--original|--updated}"
+    exit -1
+fi
+
+# --- parse command-line parameters
+
+while [[ -n "$1" ]]; do
+    case "$1" in
+
+        "--original")
+            spec="original"
+            shift
+            ;;
+
+        "--updated")
+            spec="updated"
+            shift
+            ;;
+
+        *)
+            echo "$0: unknown paramter \`$1' --> exiting."
+            exit -1
+    esac
+    shift
+done
+
 # --- screen dimensions
 
 xdisp=1080
@@ -70,33 +99,23 @@ nid=$((nid+cid))
 x0=$((24-xdisp))
 y0=96
 
-pids=( 326     2261022 2261023
-       2244823 2244824 2244825
-       2244826 2244827 2244828
-       2245455 2245028 )
+upids=( $(cut -d ',' -f1 "pidlist-temperature-$spec.csv" | sed 's/ /_/g') )
+lbls=( $(cut -d ',' -f2 "pidlist-temperature-$spec.csv" | sed 's/ /_/g') )
+pids=( $(cut -d ',' -f3 "pidlist-temperature-$spec.csv") )
 
-lbls=( "Air Temp 0" "Air Temp 1" "Air Temp 2"
-       "Batt Sec 1" "Batt Sec 2" "Batt Sec 3"
-       "Batt Sec 4" "Batt Sec 5" "Batt Sec 6"
-       "Batt Temp"  "Coolant Temp" )
-
-upids=( "\\\\!Air Temp 0" "*Air Temp 1" "*Air Temp 2"
-        "*BECM Battery Section 1 Temp" "*BECM Battery Section 2 Temp"
-        "*BECM Battery Section 3 Temp" "*BECM Battery Section 4 Temp"
-        "*BECM Battery Section 5 Temp" "*BECM Battery Section 6 Temp"
-        "\\\\!Batt Temp" "*BECM Battery Coolant Temp ?" )
+npids=${#pids[@]}
 
 cid=0
 
-for id in $(seq 0 10); do
+for ((id=0; id<npids; id++)); do
 
     cid=$((cid+1))
 
     # --- lookup labels
 
-    pid=${pids[$id]}
-    lbl=${lbls[$id]}
-    upid=${upids[$id]}
+    pid=${pids[$id]};         pid=$((16#${pid}))  # hex --> dec
+    lbl=${lbls[$id]//_/ }
+    upid=${upids[$id]//_/ };  upid=${upid//!/\\\\!}  # escape '!'
 
     # --- screen coordinates
 
