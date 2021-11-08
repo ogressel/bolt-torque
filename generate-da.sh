@@ -59,6 +59,11 @@ maxvs=( 500.0 200.0 60.0
 
 units=( "V", "A", "kW" )
 
+if [[ $spec == "updated" ]]; then  # account for name changes
+    upids[0]=${upids[0]/!/*}
+    upids=("${upids[@]/Charger/Charger -}")
+fi
+
 cid=0
 
 for id in $(seq 0 5); do
