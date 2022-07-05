@@ -163,8 +163,8 @@ type6=7
 unit6=%
 userPid6=!Battery Level Displayed
 userPidKey6=!Battery Level Displayed/0
-x6=-1620
-y6=1800
+x6=-2068
+y6=1728
 #
 # --- PID 326 --- \!Air Temp 0 ---
 #
