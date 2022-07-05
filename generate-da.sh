@@ -106,6 +106,52 @@ done
 
 nid=$((nid+cid))
 
+# ---=== STATE OF CHARGE ===---
+
+x0=$(( -2*xdisp + xdisp/2 ))
+y0=$((          3*ydisp/4 ))
+
+pids=( 2261812 )
+
+lbls=( "Batt % DIC" )
+
+if [[ $spec == "updated" ]]; then
+    upids=("\!Battery - Pack - State of Charge Displayed")
+else
+    upids=("\!Battery Level Displayed")
+fi
+
+cid=0
+
+for id in $(seq 0 0); do
+
+    cid=$((cid+1))
+
+    # --- lookup labels
+
+    pid=${pids[$id]}
+    lbl=${lbls[$id]}
+    upid=${upids[$id]}
+
+    # --- screen coordinates
+
+    xcoord=$(( x0 + 448*$(( id%2 )) ))
+    ycoord=$(( y0 + 448*$(( id/2 )) ))
+
+    # --- write .dash file
+
+    cat template-soc.dash |\
+        sed "s/{ID}/$((id+nid))/g" |\
+        sed "s/{LBL}/$lbl/g" |\
+        sed "s/{USRPID}/$upid/g" |\
+        sed "s/{PID}/$pid/g" |\
+        sed "s/{XCOORD}/$xcoord/g" |\
+        sed "s/{YCOORD}/$ycoord/g"
+
+done
+
+nid=$((nid+cid))
+
 # ---=== VARIOUS TEMPERATURE SENSORS ===---
 
 x0=$((24-xdisp))
