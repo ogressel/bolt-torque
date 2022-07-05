@@ -32,6 +32,10 @@ while [[ -n "$1" ]]; do
     shift
 done
 
+# --- switching mechanism for template files
+
+sw_cmd="sed 's/\(^%__${spec^^}__:\)\(.*$\)/\2/g' | grep -v '^%'"
+
 # --- screen dimensions
 
 xdisp=1080  # enable for
@@ -210,7 +214,7 @@ for id in $(seq 0 95); do
         sed "s/{NUM}/$num/g" |\
         sed "s/{PID}/$pid/g" |\
         sed "s/{XCOORD}/$xcoord/g" |\
-        sed "s/{YCOORD}/$ycoord/g"
+        sed "s/{YCOORD}/$ycoord/g" | eval $sw_cmd
 
 done
 
