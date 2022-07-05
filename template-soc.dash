@@ -1,0 +1,23 @@
+#
+# --- PID {PID} --- {USRPID} ---
+#
+class{ID}=org.prowl.torque.widgets.BarMeter
+displayScale{ID}=1.0
+extraConfigA{ID}=
+forcedmax{ID}=0.0
+forcedmin{ID}=auto
+lowFlash{ID}=1.4E-45
+highFlash{ID}=3.4028235E38
+label{ID}={LBL}
+min{ID}=0
+max{ID}=100
+mode{ID}=0
+numberDecimals{ID}=-1
+pid{ID}={PID}
+scale{ID}=1.0
+type{ID}=7
+unit{ID}=%
+userPid{ID}={USRPID}
+userPidKey{ID}={USRPID}/0
+x{ID}={XCOORD}
+y{ID}={YCOORD}
