@@ -547,13 +547,13 @@ min23=0.0
 max23=5000.0
 mode23=0
 numberDecimals23=-1
-pid23=2245042
+pid23=2245466
 pidUUIDa23=
 scale23=1.0
 type23=7
 unit23=RPM
-userPid23=*Electronics ? Pump RPM
-userPidKey23=*Electronics ? Pump RPM/0
+userPid23=\!Battery - Coolant Pump Speed
+userPidKey23=\!Battery - Coolant Pump Speed/0
 x23=-552
 y23=1664
 #
