@@ -108,22 +108,44 @@ nid=$((nid+cid))
 
 # ---=== STATE OF CHARGE ===---
 
-x0=$(( -2*xdisp + xdisp/2 ))
-y0=$((          3*ydisp/4 ))
-
-pids=( 2261812 )
-
-lbls=( "Batt % DIC" )
+x0=$(( -2*xdisp + xdisp/2   ))
+y0=$((    ydisp - 448 - 224 ))
 
 if [[ $spec == "updated" ]]; then
-    upids=("\!Battery - Pack - State of Charge Displayed")
+
+    pids=( 2261812 2245541 )
+
+    lbls=( "Batt % DIC" "# Charges" )
+
+    upids=( "\!Battery - Pack - State of Charge Displayed"
+            "*Battery - Number of Charges" )
+
+    maxvs=( "100" "1e6" )
+
+    units=( "%" "" )
+
+    types=( "BarMeter" "Readout" )
+
 else
-    upids=("\!Battery Level Displayed")
+
+    pids=( 2261812 )
+
+    lbls=( "Batt % DIC" )
+
+    upids=( "\!Battery Level Displayed" )
+
+    maxvs=( "100" )
+
+    units=( "%" )
+
+    types=( "BarMeter" )
 fi
+
+nid_soc=${#pids[@]}
 
 cid=0
 
-for id in $(seq 0 0); do
+for id in $(seq 0 $((nid_soc-1))); do
 
     cid=$((cid+1))
 
@@ -132,11 +154,14 @@ for id in $(seq 0 0); do
     pid=${pids[$id]}
     lbl=${lbls[$id]}
     upid=${upids[$id]}
+    maxv=${maxvs[$id]}
+    unit=${units[$id]}
+    type=${types[$id]}
 
     # --- screen coordinates
 
-    xcoord=$(( x0 + 448*$(( id%2 )) ))
-    ycoord=$(( y0 + 448*$(( id/2 )) ))
+    xcoord=$(( x0 + 448*$(( id%2-1 )) ))
+    ycoord=$(( y0 + 448*$(( id/2   )) ))
 
     # --- write .dash file
 
@@ -145,6 +170,9 @@ for id in $(seq 0 0); do
         sed "s/{LBL}/$lbl/g" |\
         sed "s/{USRPID}/$upid/g" |\
         sed "s/{PID}/$pid/g" |\
+        sed "s/{MAXV}/$maxv/g" |\
+        sed "s/{UNIT}/$unit/g" |\
+        sed "s/{TYPE}/$type/g" |\
         sed "s/{XCOORD}/$xcoord/g" |\
         sed "s/{YCOORD}/$ycoord/g"
 
