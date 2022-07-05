@@ -528,8 +528,8 @@ pidUUIDa22=
 scale22=1.0
 type22=7
 unit22=W
-userPid22=\!Heater - Battery
-userPidKey22=\!Heater - Battery/0
+userPid22=\!Battery - Heater - Measured W
+userPidKey22=\!Battery - Heater - Measured W/0
 x22=-552
 y22=1216
 #

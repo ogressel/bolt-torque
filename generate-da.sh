@@ -171,7 +171,7 @@ for id in $(seq 0 1); do
     cat template-${templ[$id]}.dash |\
         sed "s/{ID}/$((id+nid))/g" |\
         sed "s/{XCOORD}/$xcoord/g" |\
-        sed "s/{YCOORD}/$ycoord/g"
+        sed "s/{YCOORD}/$ycoord/g" | eval $sw_cmd
 
 done
 
