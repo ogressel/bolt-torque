@@ -1,3 +1,6 @@
+#
+# --- PID {PID} --- {USRPID} ---
+#
 class{ID}=org.prowl.torque.widgets.HalfDial
 displayScale{ID}=1.0
 extraConfigA{ID}=
