@@ -34,8 +34,11 @@ done
 
 # --- screen dimensions
 
-xdisp=1080
-ydisp=1920
+xdisp=1080  # enable for
+ydisp=2400  # 20:9 screen ratio
+
+# xdisp=1080  # enable for
+# ydisp=1920  # 16:9 screen ratio
 
 # ---  for generating unique IDs
 
@@ -175,6 +178,8 @@ nid=$((nid+cid))
 x0=3
 y0=72
 
+v_per_page=$(( ((ydisp/210-1)*5) /16 *16))
+
 id0=0
 
 cid=0
@@ -193,9 +198,9 @@ for id in $(seq 0 95); do
 
     # --- jump to new screen
 
-    if [[ $((id%32)) == 31 ]]; then
+    if [[ $((id%$v_per_page)) == $((v_per_page-1)) ]]; then
         x0=$((x0+xdisp))
-        id0=$((id0+32))
+        id0=$((id0+$v_per_page))
     fi
 
     # --- write .dash file
