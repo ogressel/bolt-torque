@@ -206,7 +206,7 @@ forcedmin9=auto
 forcedmax9=0.0
 lowFlash9=-10.
 highFlash9=40.
-label9=Batt Sec 1
+label9=Batt Sec 1 Temp
 min9=-40.0
 max9=100.0
 mode9=0
@@ -221,7 +221,7 @@ userPidKey9=*BECM Battery Section 1 Temp/0
 x9=-1056
 y9=320
 #
-# --- PID 2244824 --- *BECM Battery Section 2 Temp ---
+# --- PID 2244825 --- *BECM Battery Section 2 Temp ---
 #
 class10=org.prowl.torque.widgets.Readout
 displayScale10=0.5
@@ -230,12 +230,12 @@ forcedmin10=auto
 forcedmax10=0.0
 lowFlash10=-10.
 highFlash10=40.
-label10=Batt Sec 2
+label10=Batt Sec 2 Temp
 min10=-40.0
 max10=100.0
 mode10=0
 numberDecimals10=-1
-pid10=2244824
+pid10=2244825
 pidUUIDa10=
 scale10=1.0
 type10=7
@@ -245,7 +245,7 @@ userPidKey10=*BECM Battery Section 2 Temp/0
 x10=-832
 y10=320
 #
-# --- PID 2244825 --- *BECM Battery Section 3 Temp ---
+# --- PID 2244827 --- *BECM Battery Section 3 Temp ---
 #
 class11=org.prowl.torque.widgets.Readout
 displayScale11=0.5
@@ -254,12 +254,12 @@ forcedmin11=auto
 forcedmax11=0.0
 lowFlash11=-10.
 highFlash11=40.
-label11=Batt Sec 3
+label11=Batt Sec 3 Temp
 min11=-40.0
 max11=100.0
 mode11=0
 numberDecimals11=-1
-pid11=2244825
+pid11=2244827
 pidUUIDa11=
 scale11=1.0
 type11=7
@@ -269,7 +269,7 @@ userPidKey11=*BECM Battery Section 3 Temp/0
 x11=-608
 y11=320
 #
-# --- PID 2244826 --- *BECM Battery Section 4 Temp ---
+# --- PID 2244829 --- *BECM Battery Section 4 Temp ---
 #
 class12=org.prowl.torque.widgets.Readout
 displayScale12=0.5
@@ -278,12 +278,12 @@ forcedmin12=auto
 forcedmax12=0.0
 lowFlash12=-10.
 highFlash12=40.
-label12=Batt Sec 4
+label12=Batt Sec 4 Temp
 min12=-40.0
 max12=100.0
 mode12=0
 numberDecimals12=-1
-pid12=2244826
+pid12=2244829
 pidUUIDa12=
 scale12=1.0
 type12=7
@@ -293,7 +293,7 @@ userPidKey12=*BECM Battery Section 4 Temp/0
 x12=-1056
 y12=544
 #
-# --- PID 2244827 --- *BECM Battery Section 5 Temp ---
+# --- PID 2244831 --- *BECM Battery Section 5 Temp ---
 #
 class13=org.prowl.torque.widgets.Readout
 displayScale13=0.5
@@ -302,12 +302,12 @@ forcedmin13=auto
 forcedmax13=0.0
 lowFlash13=-10.
 highFlash13=40.
-label13=Batt Sec 5
+label13=Batt Sec 5 Temp
 min13=-40.0
 max13=100.0
 mode13=0
 numberDecimals13=-1
-pid13=2244827
+pid13=2244831
 pidUUIDa13=
 scale13=1.0
 type13=7
@@ -317,7 +317,7 @@ userPidKey13=*BECM Battery Section 5 Temp/0
 x13=-832
 y13=544
 #
-# --- PID 2244828 --- *BECM Battery Section 6 Temp ---
+# --- PID 2244833 --- *BECM Battery Section 6 Temp ---
 #
 class14=org.prowl.torque.widgets.Readout
 displayScale14=0.5
@@ -326,12 +326,12 @@ forcedmin14=auto
 forcedmax14=0.0
 lowFlash14=-10.
 highFlash14=40.
-label14=Batt Sec 6
+label14=Batt Sec 6 Temp
 min14=-40.0
 max14=100.0
 mode14=0
 numberDecimals14=-1
-pid14=2244828
+pid14=2244833
 pidUUIDa14=
 scale14=1.0
 type14=7
@@ -341,7 +341,7 @@ userPidKey14=*BECM Battery Section 6 Temp/0
 x14=-608
 y14=544
 #
-# --- PID 2245455 --- \!Batt Temp ---
+# --- PID 2245028 --- *BECM Battery Coolant Temp ? ---
 #
 class15=org.prowl.torque.widgets.Readout
 displayScale15=0.5
@@ -350,22 +350,22 @@ forcedmin15=auto
 forcedmax15=0.0
 lowFlash15=-10.
 highFlash15=40.
-label15=Batt Temp
+label15=Batt Coolant Temp ?
 min15=-40.0
 max15=100.0
 mode15=0
 numberDecimals15=-1
-pid15=2245455
+pid15=2245028
 pidUUIDa15=
 scale15=1.0
 type15=7
 unit15=\u00B0C
-userPid15=\!Batt Temp
-userPidKey15=\!Batt Temp/0
+userPid15=*BECM Battery Coolant Temp ?
+userPidKey15=*BECM Battery Coolant Temp ?/0
 x15=-1056
 y15=768
 #
-# --- PID 2245028 --- *BECM Battery Coolant Temp ? ---
+# --- PID 2235459 --- *H2 Electronics Temp ---
 #
 class16=org.prowl.torque.widgets.Readout
 displayScale16=0.5
@@ -374,142 +374,142 @@ forcedmin16=auto
 forcedmax16=0.0
 lowFlash16=-10.
 highFlash16=40.
-label16=Coolant Temp
+label16=Ele.Temp H2
 min16=-40.0
 max16=100.0
 mode16=0
 numberDecimals16=-1
-pid16=2245028
+pid16=2235459
 pidUUIDa16=
 scale16=1.0
 type16=7
 unit16=\u00B0C
-userPid16=*BECM Battery Coolant Temp ?
-userPidKey16=*BECM Battery Coolant Temp ?/0
+userPid16=*H2 Electronics Temp
+userPidKey16=*H2 Electronics Temp/0
 x16=-832
 y16=768
 #
-# --- PID 2245046 --- \!Heater - Battery ---
+# --- PID 2235432 --- *Electronics Temp 2 ---
 #
-class17=org.prowl.torque.widgets.Meter
-displayScale17=1.0
+class17=org.prowl.torque.widgets.Readout
+displayScale17=0.5
 extraConfigA17=
 forcedmin17=auto
 forcedmax17=0.0
-lowFlash17=1.4E-45
-highFlash17=5000.0
-label17=Batt Heat
-min17=0.0
-max17=5000.0
+lowFlash17=-10.
+highFlash17=40.
+label17=Ele.Temp 2
+min17=-40.0
+max17=100.0
 mode17=0
 numberDecimals17=-1
-pid17=2245046
+pid17=2235432
 pidUUIDa17=
 scale17=1.0
 type17=7
-unit17=W
-userPid17=\!Heater - Battery
-userPidKey17=\!Heater - Battery/0
-x17=-552
+unit17=\u00B0C
+userPid17=*Electronics Temp 2
+userPidKey17=*Electronics Temp 2/0
+x17=-608
 y17=768
 #
-# --- PID 2245042 --- *Electronics ? Pump RPM ---
+# --- PID 2235434 --- *Electronics Temp 3 ---
 #
-class18=org.prowl.torque.widgets.Meter
-displayScale18=1.0
+class18=org.prowl.torque.widgets.Readout
+displayScale18=0.5
 extraConfigA18=
 forcedmin18=auto
 forcedmax18=0.0
-lowFlash18=1.4E-45
-highFlash18=5000.0
-label18=Pump RPM
-min18=0.0
-max18=5000.0
+lowFlash18=-10.
+highFlash18=40.
+label18=Ele.Temp 3
+min18=-40.0
+max18=100.0
 mode18=0
 numberDecimals18=-1
-pid18=2245042
+pid18=2235434
 pidUUIDa18=
 scale18=1.0
 type18=7
-unit18=RPM
-userPid18=*Electronics ? Pump RPM
-userPidKey18=*Electronics ? Pump RPM/0
-x18=-552
-y18=1216
+unit18=\u00B0C
+userPid18=*Electronics Temp 3
+userPidKey18=*Electronics Temp 3/0
+x18=-1056
+y18=992
 #
-# --- PID 2244993 --- +Battery Cell Voltage \#01 ---
+# --- PID 2234688 --- *Tran Temp ---
 #
 class19=org.prowl.torque.widgets.Readout
 displayScale19=0.5
 extraConfigA19=
 forcedmin19=auto
 forcedmax19=0.0
-lowFlash19=2.55
-highFlash19=4.2
-label19=Cell 01
-min19=2.50
-max19=4.25
+lowFlash19=-10.
+highFlash19=40.
+label19=Tran Temp
+min19=-40.0
+max19=100.0
 mode19=0
-numberDecimals19=3
+numberDecimals19=-1
+pid19=2234688
 pidUUIDa19=
-pid19=2244993
 scale19=1.0
 type19=7
-unit19=V
-userPidKey19=+Battery Cell Voltage \#01/0
-userPid19=+Battery Cell Voltage \#01
-x19=3
-y19=72
+unit19=\u00B0C
+userPid19=*Tran Temp
+userPidKey19=*Tran Temp/0
+x19=-832
+y19=992
 #
-# --- PID 2244994 --- +Battery Cell Voltage \#02 ---
+# --- PID 2245046 --- \!Heater - Battery ---
 #
-class20=org.prowl.torque.widgets.Readout
-displayScale20=0.5
+class20=org.prowl.torque.widgets.Meter
+displayScale20=1.0
 extraConfigA20=
 forcedmin20=auto
 forcedmax20=0.0
-lowFlash20=2.55
-highFlash20=4.2
-label20=Cell 02
-min20=2.50
-max20=4.25
+lowFlash20=1.4E-45
+highFlash20=5000.0
+label20=Batt Heat
+min20=0.0
+max20=5000.0
 mode20=0
-numberDecimals20=3
+numberDecimals20=-1
+pid20=2245046
 pidUUIDa20=
-pid20=2244994
 scale20=1.0
 type20=7
-unit20=V
-userPidKey20=+Battery Cell Voltage \#02/0
-userPid20=+Battery Cell Voltage \#02
-x20=213
-y20=72
+unit20=W
+userPid20=\!Heater - Battery
+userPidKey20=\!Heater - Battery/0
+x20=-552
+y20=992
 #
-# --- PID 2244995 --- +Battery Cell Voltage \#03 ---
+# --- PID 2245042 --- *Electronics ? Pump RPM ---
 #
-class21=org.prowl.torque.widgets.Readout
-displayScale21=0.5
+class21=org.prowl.torque.widgets.Meter
+displayScale21=1.0
 extraConfigA21=
 forcedmin21=auto
 forcedmax21=0.0
-lowFlash21=2.55
-highFlash21=4.2
-label21=Cell 03
-min21=2.50
-max21=4.25
+lowFlash21=1.4E-45
+highFlash21=5000.0
+label21=Pump RPM
+min21=0.0
+max21=5000.0
 mode21=0
-numberDecimals21=3
+numberDecimals21=-1
+pid21=2245042
 pidUUIDa21=
-pid21=2244995
 scale21=1.0
 type21=7
-unit21=V
-userPidKey21=+Battery Cell Voltage \#03/0
-userPid21=+Battery Cell Voltage \#03
-x21=423
-y21=72
+unit21=RPM
+userPid21=*Electronics ? Pump RPM
+userPidKey21=*Electronics ? Pump RPM/0
+x21=-552
+y21=1440
 #
-# --- PID 2244996 --- +Battery Cell Voltage \#04 ---
+# --- PID 2244993 --- +Battery Cell Voltage \#01 ---
 #
 class22=org.prowl.torque.widgets.Readout
 displayScale22=0.5
@@ -518,22 +518,22 @@ forcedmin22=auto
 forcedmax22=0.0
 lowFlash22=2.55
 highFlash22=4.2
-label22=Cell 04
+label22=Cell 01
 min22=2.50
 max22=4.25
 mode22=0
 numberDecimals22=3
 pidUUIDa22=
-pid22=2244996
+pid22=2244993
 scale22=1.0
 type22=7
 unit22=V
-userPidKey22=+Battery Cell Voltage \#04/0
-userPid22=+Battery Cell Voltage \#04
-x22=633
+userPidKey22=+Battery Cell Voltage \#01/0
+userPid22=+Battery Cell Voltage \#01
+x22=3
 y22=72
 #
-# --- PID 2244997 --- +Battery Cell Voltage \#05 ---
+# --- PID 2244994 --- +Battery Cell Voltage \#02 ---
 #
 class23=org.prowl.torque.widgets.Readout
 displayScale23=0.5
@@ -542,22 +542,22 @@ forcedmin23=auto
 forcedmax23=0.0
 lowFlash23=2.55
 highFlash23=4.2
-label23=Cell 05
+label23=Cell 02
 min23=2.50
 max23=4.25
 mode23=0
 numberDecimals23=3
 pidUUIDa23=
-pid23=2244997
+pid23=2244994
 scale23=1.0
 type23=7
 unit23=V
-userPidKey23=+Battery Cell Voltage \#05/0
-userPid23=+Battery Cell Voltage \#05
-x23=843
+userPidKey23=+Battery Cell Voltage \#02/0
+userPid23=+Battery Cell Voltage \#02
+x23=213
 y23=72
 #
-# --- PID 2244998 --- +Battery Cell Voltage \#06 ---
+# --- PID 2244995 --- +Battery Cell Voltage \#03 ---
 #
 class24=org.prowl.torque.widgets.Readout
 displayScale24=0.5
@@ -566,22 +566,22 @@ forcedmin24=auto
 forcedmax24=0.0
 lowFlash24=2.55
 highFlash24=4.2
-label24=Cell 06
+label24=Cell 03
 min24=2.50
 max24=4.25
 mode24=0
 numberDecimals24=3
 pidUUIDa24=
-pid24=2244998
+pid24=2244995
 scale24=1.0
 type24=7
 unit24=V
-userPidKey24=+Battery Cell Voltage \#06/0
-userPid24=+Battery Cell Voltage \#06
-x24=3
-y24=282
+userPidKey24=+Battery Cell Voltage \#03/0
+userPid24=+Battery Cell Voltage \#03
+x24=423
+y24=72
 #
-# --- PID 2244999 --- +Battery Cell Voltage \#07 ---
+# --- PID 2244996 --- +Battery Cell Voltage \#04 ---
 #
 class25=org.prowl.torque.widgets.Readout
 displayScale25=0.5
@@ -590,22 +590,22 @@ forcedmin25=auto
 forcedmax25=0.0
 lowFlash25=2.55
 highFlash25=4.2
-label25=Cell 07
+label25=Cell 04
 min25=2.50
 max25=4.25
 mode25=0
 numberDecimals25=3
 pidUUIDa25=
-pid25=2244999
+pid25=2244996
 scale25=1.0
 type25=7
 unit25=V
-userPidKey25=+Battery Cell Voltage \#07/0
-userPid25=+Battery Cell Voltage \#07
-x25=213
-y25=282
+userPidKey25=+Battery Cell Voltage \#04/0
+userPid25=+Battery Cell Voltage \#04
+x25=633
+y25=72
 #
-# --- PID 2245000 --- +Battery Cell Voltage \#08 ---
+# --- PID 2244997 --- +Battery Cell Voltage \#05 ---
 #
 class26=org.prowl.torque.widgets.Readout
 displayScale26=0.5
@@ -614,22 +614,22 @@ forcedmin26=auto
 forcedmax26=0.0
 lowFlash26=2.55
 highFlash26=4.2
-label26=Cell 08
+label26=Cell 05
 min26=2.50
 max26=4.25
 mode26=0
 numberDecimals26=3
 pidUUIDa26=
-pid26=2245000
+pid26=2244997
 scale26=1.0
 type26=7
 unit26=V
-userPidKey26=+Battery Cell Voltage \#08/0
-userPid26=+Battery Cell Voltage \#08
-x26=423
-y26=282
+userPidKey26=+Battery Cell Voltage \#05/0
+userPid26=+Battery Cell Voltage \#05
+x26=843
+y26=72
 #
-# --- PID 2245001 --- +Battery Cell Voltage \#09 ---
+# --- PID 2244998 --- +Battery Cell Voltage \#06 ---
 #
 class27=org.prowl.torque.widgets.Readout
 displayScale27=0.5
@@ -638,22 +638,22 @@ forcedmin27=auto
 forcedmax27=0.0
 lowFlash27=2.55
 highFlash27=4.2
-label27=Cell 09
+label27=Cell 06
 min27=2.50
 max27=4.25
 mode27=0
 numberDecimals27=3
 pidUUIDa27=
-pid27=2245001
+pid27=2244998
 scale27=1.0
 type27=7
 unit27=V
-userPidKey27=+Battery Cell Voltage \#09/0
-userPid27=+Battery Cell Voltage \#09
-x27=633
+userPidKey27=+Battery Cell Voltage \#06/0
+userPid27=+Battery Cell Voltage \#06
+x27=3
 y27=282
 #
-# --- PID 2245002 --- +Battery Cell Voltage \#10 ---
+# --- PID 2244999 --- +Battery Cell Voltage \#07 ---
 #
 class28=org.prowl.torque.widgets.Readout
 displayScale28=0.5
@@ -662,22 +662,22 @@ forcedmin28=auto
 forcedmax28=0.0
 lowFlash28=2.55
 highFlash28=4.2
-label28=Cell 10
+label28=Cell 07
 min28=2.50
 max28=4.25
 mode28=0
 numberDecimals28=3
 pidUUIDa28=
-pid28=2245002
+pid28=2244999
 scale28=1.0
 type28=7
 unit28=V
-userPidKey28=+Battery Cell Voltage \#10/0
-userPid28=+Battery Cell Voltage \#10
-x28=843
+userPidKey28=+Battery Cell Voltage \#07/0
+userPid28=+Battery Cell Voltage \#07
+x28=213
 y28=282
 #
-# --- PID 2245003 --- +Battery Cell Voltage \#11 ---
+# --- PID 2245000 --- +Battery Cell Voltage \#08 ---
 #
 class29=org.prowl.torque.widgets.Readout
 displayScale29=0.5
@@ -686,22 +686,22 @@ forcedmin29=auto
 forcedmax29=0.0
 lowFlash29=2.55
 highFlash29=4.2
-label29=Cell 11
+label29=Cell 08
 min29=2.50
 max29=4.25
 mode29=0
 numberDecimals29=3
 pidUUIDa29=
-pid29=2245003
+pid29=2245000
 scale29=1.0
 type29=7
 unit29=V
-userPidKey29=+Battery Cell Voltage \#11/0
-userPid29=+Battery Cell Voltage \#11
-x29=3
-y29=492
+userPidKey29=+Battery Cell Voltage \#08/0
+userPid29=+Battery Cell Voltage \#08
+x29=423
+y29=282
 #
-# --- PID 2245004 --- +Battery Cell Voltage \#12 ---
+# --- PID 2245001 --- +Battery Cell Voltage \#09 ---
 #
 class30=org.prowl.torque.widgets.Readout
 displayScale30=0.5
@@ -710,22 +710,22 @@ forcedmin30=auto
 forcedmax30=0.0
 lowFlash30=2.55
 highFlash30=4.2
-label30=Cell 12
+label30=Cell 09
 min30=2.50
 max30=4.25
 mode30=0
 numberDecimals30=3
 pidUUIDa30=
-pid30=2245004
+pid30=2245001
 scale30=1.0
 type30=7
 unit30=V
-userPidKey30=+Battery Cell Voltage \#12/0
-userPid30=+Battery Cell Voltage \#12
-x30=213
-y30=492
+userPidKey30=+Battery Cell Voltage \#09/0
+userPid30=+Battery Cell Voltage \#09
+x30=633
+y30=282
 #
-# --- PID 2245005 --- +Battery Cell Voltage \#13 ---
+# --- PID 2245002 --- +Battery Cell Voltage \#10 ---
 #
 class31=org.prowl.torque.widgets.Readout
 displayScale31=0.5
@@ -734,22 +734,22 @@ forcedmin31=auto
 forcedmax31=0.0
 lowFlash31=2.55
 highFlash31=4.2
-label31=Cell 13
+label31=Cell 10
 min31=2.50
 max31=4.25
 mode31=0
 numberDecimals31=3
 pidUUIDa31=
-pid31=2245005
+pid31=2245002
 scale31=1.0
 type31=7
 unit31=V
-userPidKey31=+Battery Cell Voltage \#13/0
-userPid31=+Battery Cell Voltage \#13
-x31=423
-y31=492
+userPidKey31=+Battery Cell Voltage \#10/0
+userPid31=+Battery Cell Voltage \#10
+x31=843
+y31=282
 #
-# --- PID 2245006 --- +Battery Cell Voltage \#14 ---
+# --- PID 2245003 --- +Battery Cell Voltage \#11 ---
 #
 class32=org.prowl.torque.widgets.Readout
 displayScale32=0.5
@@ -758,22 +758,22 @@ forcedmin32=auto
 forcedmax32=0.0
 lowFlash32=2.55
 highFlash32=4.2
-label32=Cell 14
+label32=Cell 11
 min32=2.50
 max32=4.25
 mode32=0
 numberDecimals32=3
 pidUUIDa32=
-pid32=2245006
+pid32=2245003
 scale32=1.0
 type32=7
 unit32=V
-userPidKey32=+Battery Cell Voltage \#14/0
-userPid32=+Battery Cell Voltage \#14
-x32=633
+userPidKey32=+Battery Cell Voltage \#11/0
+userPid32=+Battery Cell Voltage \#11
+x32=3
 y32=492
 #
-# --- PID 2245007 --- +Battery Cell Voltage \#15 ---
+# --- PID 2245004 --- +Battery Cell Voltage \#12 ---
 #
 class33=org.prowl.torque.widgets.Readout
 displayScale33=0.5
@@ -782,22 +782,22 @@ forcedmin33=auto
 forcedmax33=0.0
 lowFlash33=2.55
 highFlash33=4.2
-label33=Cell 15
+label33=Cell 12
 min33=2.50
 max33=4.25
 mode33=0
 numberDecimals33=3
 pidUUIDa33=
-pid33=2245007
+pid33=2245004
 scale33=1.0
 type33=7
 unit33=V
-userPidKey33=+Battery Cell Voltage \#15/0
-userPid33=+Battery Cell Voltage \#15
-x33=843
+userPidKey33=+Battery Cell Voltage \#12/0
+userPid33=+Battery Cell Voltage \#12
+x33=213
 y33=492
 #
-# --- PID 2245008 --- +Battery Cell Voltage \#16 ---
+# --- PID 2245005 --- +Battery Cell Voltage \#13 ---
 #
 class34=org.prowl.torque.widgets.Readout
 displayScale34=0.5
@@ -806,22 +806,22 @@ forcedmin34=auto
 forcedmax34=0.0
 lowFlash34=2.55
 highFlash34=4.2
-label34=Cell 16
+label34=Cell 13
 min34=2.50
 max34=4.25
 mode34=0
 numberDecimals34=3
 pidUUIDa34=
-pid34=2245008
+pid34=2245005
 scale34=1.0
 type34=7
 unit34=V
-userPidKey34=+Battery Cell Voltage \#16/0
-userPid34=+Battery Cell Voltage \#16
-x34=3
-y34=702
+userPidKey34=+Battery Cell Voltage \#13/0
+userPid34=+Battery Cell Voltage \#13
+x34=423
+y34=492
 #
-# --- PID 2245009 --- +Battery Cell Voltage \#17 ---
+# --- PID 2245006 --- +Battery Cell Voltage \#14 ---
 #
 class35=org.prowl.torque.widgets.Readout
 displayScale35=0.5
@@ -830,22 +830,22 @@ forcedmin35=auto
 forcedmax35=0.0
 lowFlash35=2.55
 highFlash35=4.2
-label35=Cell 17
+label35=Cell 14
 min35=2.50
 max35=4.25
 mode35=0
 numberDecimals35=3
 pidUUIDa35=
-pid35=2245009
+pid35=2245006
 scale35=1.0
 type35=7
 unit35=V
-userPidKey35=+Battery Cell Voltage \#17/0
-userPid35=+Battery Cell Voltage \#17
-x35=213
-y35=702
+userPidKey35=+Battery Cell Voltage \#14/0
+userPid35=+Battery Cell Voltage \#14
+x35=633
+y35=492
 #
-# --- PID 2245010 --- +Battery Cell Voltage \#18 ---
+# --- PID 2245007 --- +Battery Cell Voltage \#15 ---
 #
 class36=org.prowl.torque.widgets.Readout
 displayScale36=0.5
@@ -854,22 +854,22 @@ forcedmin36=auto
 forcedmax36=0.0
 lowFlash36=2.55
 highFlash36=4.2
-label36=Cell 18
+label36=Cell 15
 min36=2.50
 max36=4.25
 mode36=0
 numberDecimals36=3
 pidUUIDa36=
-pid36=2245010
+pid36=2245007
 scale36=1.0
 type36=7
 unit36=V
-userPidKey36=+Battery Cell Voltage \#18/0
-userPid36=+Battery Cell Voltage \#18
-x36=423
-y36=702
+userPidKey36=+Battery Cell Voltage \#15/0
+userPid36=+Battery Cell Voltage \#15
+x36=843
+y36=492
 #
-# --- PID 2245011 --- +Battery Cell Voltage \#19 ---
+# --- PID 2245008 --- +Battery Cell Voltage \#16 ---
 #
 class37=org.prowl.torque.widgets.Readout
 displayScale37=0.5
@@ -878,22 +878,22 @@ forcedmin37=auto
 forcedmax37=0.0
 lowFlash37=2.55
 highFlash37=4.2
-label37=Cell 19
+label37=Cell 16
 min37=2.50
 max37=4.25
 mode37=0
 numberDecimals37=3
 pidUUIDa37=
-pid37=2245011
+pid37=2245008
 scale37=1.0
 type37=7
 unit37=V
-userPidKey37=+Battery Cell Voltage \#19/0
-userPid37=+Battery Cell Voltage \#19
-x37=633
+userPidKey37=+Battery Cell Voltage \#16/0
+userPid37=+Battery Cell Voltage \#16
+x37=3
 y37=702
 #
-# --- PID 2245012 --- +Battery Cell Voltage \#20 ---
+# --- PID 2245009 --- +Battery Cell Voltage \#17 ---
 #
 class38=org.prowl.torque.widgets.Readout
 displayScale38=0.5
@@ -902,22 +902,22 @@ forcedmin38=auto
 forcedmax38=0.0
 lowFlash38=2.55
 highFlash38=4.2
-label38=Cell 20
+label38=Cell 17
 min38=2.50
 max38=4.25
 mode38=0
 numberDecimals38=3
 pidUUIDa38=
-pid38=2245012
+pid38=2245009
 scale38=1.0
 type38=7
 unit38=V
-userPidKey38=+Battery Cell Voltage \#20/0
-userPid38=+Battery Cell Voltage \#20
-x38=843
+userPidKey38=+Battery Cell Voltage \#17/0
+userPid38=+Battery Cell Voltage \#17
+x38=213
 y38=702
 #
-# --- PID 2245013 --- +Battery Cell Voltage \#21 ---
+# --- PID 2245010 --- +Battery Cell Voltage \#18 ---
 #
 class39=org.prowl.torque.widgets.Readout
 displayScale39=0.5
@@ -926,22 +926,22 @@ forcedmin39=auto
 forcedmax39=0.0
 lowFlash39=2.55
 highFlash39=4.2
-label39=Cell 21
+label39=Cell 18
 min39=2.50
 max39=4.25
 mode39=0
 numberDecimals39=3
 pidUUIDa39=
-pid39=2245013
+pid39=2245010
 scale39=1.0
 type39=7
 unit39=V
-userPidKey39=+Battery Cell Voltage \#21/0
-userPid39=+Battery Cell Voltage \#21
-x39=3
-y39=912
+userPidKey39=+Battery Cell Voltage \#18/0
+userPid39=+Battery Cell Voltage \#18
+x39=423
+y39=702
 #
-# --- PID 2245014 --- +Battery Cell Voltage \#22 ---
+# --- PID 2245011 --- +Battery Cell Voltage \#19 ---
 #
 class40=org.prowl.torque.widgets.Readout
 displayScale40=0.5
@@ -950,22 +950,22 @@ forcedmin40=auto
 forcedmax40=0.0
 lowFlash40=2.55
 highFlash40=4.2
-label40=Cell 22
+label40=Cell 19
 min40=2.50
 max40=4.25
 mode40=0
 numberDecimals40=3
 pidUUIDa40=
-pid40=2245014
+pid40=2245011
 scale40=1.0
 type40=7
 unit40=V
-userPidKey40=+Battery Cell Voltage \#22/0
-userPid40=+Battery Cell Voltage \#22
-x40=213
-y40=912
+userPidKey40=+Battery Cell Voltage \#19/0
+userPid40=+Battery Cell Voltage \#19
+x40=633
+y40=702
 #
-# --- PID 2245015 --- +Battery Cell Voltage \#23 ---
+# --- PID 2245012 --- +Battery Cell Voltage \#20 ---
 #
 class41=org.prowl.torque.widgets.Readout
 displayScale41=0.5
@@ -974,22 +974,22 @@ forcedmin41=auto
 forcedmax41=0.0
 lowFlash41=2.55
 highFlash41=4.2
-label41=Cell 23
+label41=Cell 20
 min41=2.50
 max41=4.25
 mode41=0
 numberDecimals41=3
 pidUUIDa41=
-pid41=2245015
+pid41=2245012
 scale41=1.0
 type41=7
 unit41=V
-userPidKey41=+Battery Cell Voltage \#23/0
-userPid41=+Battery Cell Voltage \#23
-x41=423
-y41=912
+userPidKey41=+Battery Cell Voltage \#20/0
+userPid41=+Battery Cell Voltage \#20
+x41=843
+y41=702
 #
-# --- PID 2245016 --- +Battery Cell Voltage \#24 ---
+# --- PID 2245013 --- +Battery Cell Voltage \#21 ---
 #
 class42=org.prowl.torque.widgets.Readout
 displayScale42=0.5
@@ -998,22 +998,22 @@ forcedmin42=auto
 forcedmax42=0.0
 lowFlash42=2.55
 highFlash42=4.2
-label42=Cell 24
+label42=Cell 21
 min42=2.50
 max42=4.25
 mode42=0
 numberDecimals42=3
 pidUUIDa42=
-pid42=2245016
+pid42=2245013
 scale42=1.0
 type42=7
 unit42=V
-userPidKey42=+Battery Cell Voltage \#24/0
-userPid42=+Battery Cell Voltage \#24
-x42=633
+userPidKey42=+Battery Cell Voltage \#21/0
+userPid42=+Battery Cell Voltage \#21
+x42=3
 y42=912
 #
-# --- PID 2245017 --- +Battery Cell Voltage \#25 ---
+# --- PID 2245014 --- +Battery Cell Voltage \#22 ---
 #
 class43=org.prowl.torque.widgets.Readout
 displayScale43=0.5
@@ -1022,22 +1022,22 @@ forcedmin43=auto
 forcedmax43=0.0
 lowFlash43=2.55
 highFlash43=4.2
-label43=Cell 25
+label43=Cell 22
 min43=2.50
 max43=4.25
 mode43=0
 numberDecimals43=3
 pidUUIDa43=
-pid43=2245017
+pid43=2245014
 scale43=1.0
 type43=7
 unit43=V
-userPidKey43=+Battery Cell Voltage \#25/0
-userPid43=+Battery Cell Voltage \#25
-x43=843
+userPidKey43=+Battery Cell Voltage \#22/0
+userPid43=+Battery Cell Voltage \#22
+x43=213
 y43=912
 #
-# --- PID 2245018 --- +Battery Cell Voltage \#26 ---
+# --- PID 2245015 --- +Battery Cell Voltage \#23 ---
 #
 class44=org.prowl.torque.widgets.Readout
 displayScale44=0.5
@@ -1046,22 +1046,22 @@ forcedmin44=auto
 forcedmax44=0.0
 lowFlash44=2.55
 highFlash44=4.2
-label44=Cell 26
+label44=Cell 23
 min44=2.50
 max44=4.25
 mode44=0
 numberDecimals44=3
 pidUUIDa44=
-pid44=2245018
+pid44=2245015
 scale44=1.0
 type44=7
 unit44=V
-userPidKey44=+Battery Cell Voltage \#26/0
-userPid44=+Battery Cell Voltage \#26
-x44=3
-y44=1122
+userPidKey44=+Battery Cell Voltage \#23/0
+userPid44=+Battery Cell Voltage \#23
+x44=423
+y44=912
 #
-# --- PID 2245019 --- +Battery Cell Voltage \#27 ---
+# --- PID 2245016 --- +Battery Cell Voltage \#24 ---
 #
 class45=org.prowl.torque.widgets.Readout
 displayScale45=0.5
@@ -1070,22 +1070,22 @@ forcedmin45=auto
 forcedmax45=0.0
 lowFlash45=2.55
 highFlash45=4.2
-label45=Cell 27
+label45=Cell 24
 min45=2.50
 max45=4.25
 mode45=0
 numberDecimals45=3
 pidUUIDa45=
-pid45=2245019
+pid45=2245016
 scale45=1.0
 type45=7
 unit45=V
-userPidKey45=+Battery Cell Voltage \#27/0
-userPid45=+Battery Cell Voltage \#27
-x45=213
-y45=1122
+userPidKey45=+Battery Cell Voltage \#24/0
+userPid45=+Battery Cell Voltage \#24
+x45=633
+y45=912
 #
-# --- PID 2245020 --- +Battery Cell Voltage \#28 ---
+# --- PID 2245017 --- +Battery Cell Voltage \#25 ---
 #
 class46=org.prowl.torque.widgets.Readout
 displayScale46=0.5
@@ -1094,22 +1094,22 @@ forcedmin46=auto
 forcedmax46=0.0
 lowFlash46=2.55
 highFlash46=4.2
-label46=Cell 28
+label46=Cell 25
 min46=2.50
 max46=4.25
 mode46=0
 numberDecimals46=3
 pidUUIDa46=
-pid46=2245020
+pid46=2245017
 scale46=1.0
 type46=7
 unit46=V
-userPidKey46=+Battery Cell Voltage \#28/0
-userPid46=+Battery Cell Voltage \#28
-x46=423
-y46=1122
+userPidKey46=+Battery Cell Voltage \#25/0
+userPid46=+Battery Cell Voltage \#25
+x46=843
+y46=912
 #
-# --- PID 2245021 --- +Battery Cell Voltage \#29 ---
+# --- PID 2245018 --- +Battery Cell Voltage \#26 ---
 #
 class47=org.prowl.torque.widgets.Readout
 displayScale47=0.5
@@ -1118,22 +1118,22 @@ forcedmin47=auto
 forcedmax47=0.0
 lowFlash47=2.55
 highFlash47=4.2
-label47=Cell 29
+label47=Cell 26
 min47=2.50
 max47=4.25
 mode47=0
 numberDecimals47=3
 pidUUIDa47=
-pid47=2245021
+pid47=2245018
 scale47=1.0
 type47=7
 unit47=V
-userPidKey47=+Battery Cell Voltage \#29/0
-userPid47=+Battery Cell Voltage \#29
-x47=633
+userPidKey47=+Battery Cell Voltage \#26/0
+userPid47=+Battery Cell Voltage \#26
+x47=3
 y47=1122
 #
-# --- PID 2245022 --- +Battery Cell Voltage \#30 ---
+# --- PID 2245019 --- +Battery Cell Voltage \#27 ---
 #
 class48=org.prowl.torque.widgets.Readout
 displayScale48=0.5
@@ -1142,22 +1142,22 @@ forcedmin48=auto
 forcedmax48=0.0
 lowFlash48=2.55
 highFlash48=4.2
-label48=Cell 30
+label48=Cell 27
 min48=2.50
 max48=4.25
 mode48=0
 numberDecimals48=3
 pidUUIDa48=
-pid48=2245022
+pid48=2245019
 scale48=1.0
 type48=7
 unit48=V
-userPidKey48=+Battery Cell Voltage \#30/0
-userPid48=+Battery Cell Voltage \#30
-x48=843
+userPidKey48=+Battery Cell Voltage \#27/0
+userPid48=+Battery Cell Voltage \#27
+x48=213
 y48=1122
 #
-# --- PID 2245023 --- +Battery Cell Voltage \#31 ---
+# --- PID 2245020 --- +Battery Cell Voltage \#28 ---
 #
 class49=org.prowl.torque.widgets.Readout
 displayScale49=0.5
@@ -1166,22 +1166,22 @@ forcedmin49=auto
 forcedmax49=0.0
 lowFlash49=2.55
 highFlash49=4.2
-label49=Cell 31
+label49=Cell 28
 min49=2.50
 max49=4.25
 mode49=0
 numberDecimals49=3
 pidUUIDa49=
-pid49=2245023
+pid49=2245020
 scale49=1.0
 type49=7
 unit49=V
-userPidKey49=+Battery Cell Voltage \#31/0
-userPid49=+Battery Cell Voltage \#31
-x49=3
-y49=1332
+userPidKey49=+Battery Cell Voltage \#28/0
+userPid49=+Battery Cell Voltage \#28
+x49=423
+y49=1122
 #
-# --- PID 2245024 --- +Battery Cell Voltage \#32 ---
+# --- PID 2245021 --- +Battery Cell Voltage \#29 ---
 #
 class50=org.prowl.torque.widgets.Readout
 displayScale50=0.5
@@ -1190,22 +1190,22 @@ forcedmin50=auto
 forcedmax50=0.0
 lowFlash50=2.55
 highFlash50=4.2
-label50=Cell 32
+label50=Cell 29
 min50=2.50
 max50=4.25
 mode50=0
 numberDecimals50=3
 pidUUIDa50=
-pid50=2245024
+pid50=2245021
 scale50=1.0
 type50=7
 unit50=V
-userPidKey50=+Battery Cell Voltage \#32/0
-userPid50=+Battery Cell Voltage \#32
-x50=213
-y50=1332
+userPidKey50=+Battery Cell Voltage \#29/0
+userPid50=+Battery Cell Voltage \#29
+x50=633
+y50=1122
 #
-# --- PID 2245025 --- +Battery Cell Voltage \#33 ---
+# --- PID 2245022 --- +Battery Cell Voltage \#30 ---
 #
 class51=org.prowl.torque.widgets.Readout
 displayScale51=0.5
@@ -1214,22 +1214,22 @@ forcedmin51=auto
 forcedmax51=0.0
 lowFlash51=2.55
 highFlash51=4.2
-label51=Cell 33
+label51=Cell 30
 min51=2.50
 max51=4.25
 mode51=0
 numberDecimals51=3
 pidUUIDa51=
-pid51=2245025
+pid51=2245022
 scale51=1.0
 type51=7
 unit51=V
-userPidKey51=+Battery Cell Voltage \#33/0
-userPid51=+Battery Cell Voltage \#33
-x51=1083
-y51=72
+userPidKey51=+Battery Cell Voltage \#30/0
+userPid51=+Battery Cell Voltage \#30
+x51=843
+y51=1122
 #
-# --- PID 2245026 --- +Battery Cell Voltage \#34 ---
+# --- PID 2245023 --- +Battery Cell Voltage \#31 ---
 #
 class52=org.prowl.torque.widgets.Readout
 displayScale52=0.5
@@ -1238,22 +1238,22 @@ forcedmin52=auto
 forcedmax52=0.0
 lowFlash52=2.55
 highFlash52=4.2
-label52=Cell 34
+label52=Cell 31
 min52=2.50
 max52=4.25
 mode52=0
 numberDecimals52=3
 pidUUIDa52=
-pid52=2245026
+pid52=2245023
 scale52=1.0
 type52=7
 unit52=V
-userPidKey52=+Battery Cell Voltage \#34/0
-userPid52=+Battery Cell Voltage \#34
-x52=1293
-y52=72
+userPidKey52=+Battery Cell Voltage \#31/0
+userPid52=+Battery Cell Voltage \#31
+x52=3
+y52=1332
 #
-# --- PID 2245027 --- +Battery Cell Voltage \#35 ---
+# --- PID 2245024 --- +Battery Cell Voltage \#32 ---
 #
 class53=org.prowl.torque.widgets.Readout
 displayScale53=0.5
@@ -1262,22 +1262,22 @@ forcedmin53=auto
 forcedmax53=0.0
 lowFlash53=2.55
 highFlash53=4.2
-label53=Cell 35
+label53=Cell 32
 min53=2.50
 max53=4.25
 mode53=0
 numberDecimals53=3
 pidUUIDa53=
-pid53=2245027
+pid53=2245024
 scale53=1.0
 type53=7
 unit53=V
-userPidKey53=+Battery Cell Voltage \#35/0
-userPid53=+Battery Cell Voltage \#35
-x53=1503
-y53=72
+userPidKey53=+Battery Cell Voltage \#32/0
+userPid53=+Battery Cell Voltage \#32
+x53=213
+y53=1332
 #
-# --- PID 2245028 --- +Battery Cell Voltage \#36 ---
+# --- PID 2245025 --- +Battery Cell Voltage \#33 ---
 #
 class54=org.prowl.torque.widgets.Readout
 displayScale54=0.5
@@ -1286,22 +1286,22 @@ forcedmin54=auto
 forcedmax54=0.0
 lowFlash54=2.55
 highFlash54=4.2
-label54=Cell 36
+label54=Cell 33
 min54=2.50
 max54=4.25
 mode54=0
 numberDecimals54=3
 pidUUIDa54=
-pid54=2245028
+pid54=2245025
 scale54=1.0
 type54=7
 unit54=V
-userPidKey54=+Battery Cell Voltage \#36/0
-userPid54=+Battery Cell Voltage \#36
-x54=1713
+userPidKey54=+Battery Cell Voltage \#33/0
+userPid54=+Battery Cell Voltage \#33
+x54=1083
 y54=72
 #
-# --- PID 2245029 --- +Battery Cell Voltage \#37 ---
+# --- PID 2245026 --- +Battery Cell Voltage \#34 ---
 #
 class55=org.prowl.torque.widgets.Readout
 displayScale55=0.5
@@ -1310,22 +1310,22 @@ forcedmin55=auto
 forcedmax55=0.0
 lowFlash55=2.55
 highFlash55=4.2
-label55=Cell 37
+label55=Cell 34
 min55=2.50
 max55=4.25
 mode55=0
 numberDecimals55=3
 pidUUIDa55=
-pid55=2245029
+pid55=2245026
 scale55=1.0
 type55=7
 unit55=V
-userPidKey55=+Battery Cell Voltage \#37/0
-userPid55=+Battery Cell Voltage \#37
-x55=1923
+userPidKey55=+Battery Cell Voltage \#34/0
+userPid55=+Battery Cell Voltage \#34
+x55=1293
 y55=72
 #
-# --- PID 2245030 --- +Battery Cell Voltage \#38 ---
+# --- PID 2245027 --- +Battery Cell Voltage \#35 ---
 #
 class56=org.prowl.torque.widgets.Readout
 displayScale56=0.5
@@ -1334,22 +1334,22 @@ forcedmin56=auto
 forcedmax56=0.0
 lowFlash56=2.55
 highFlash56=4.2
-label56=Cell 38
+label56=Cell 35
 min56=2.50
 max56=4.25
 mode56=0
 numberDecimals56=3
 pidUUIDa56=
-pid56=2245030
+pid56=2245027
 scale56=1.0
 type56=7
 unit56=V
-userPidKey56=+Battery Cell Voltage \#38/0
-userPid56=+Battery Cell Voltage \#38
-x56=1083
-y56=282
+userPidKey56=+Battery Cell Voltage \#35/0
+userPid56=+Battery Cell Voltage \#35
+x56=1503
+y56=72
 #
-# --- PID 2245031 --- +Battery Cell Voltage \#39 ---
+# --- PID 2245028 --- +Battery Cell Voltage \#36 ---
 #
 class57=org.prowl.torque.widgets.Readout
 displayScale57=0.5
@@ -1358,22 +1358,22 @@ forcedmin57=auto
 forcedmax57=0.0
 lowFlash57=2.55
 highFlash57=4.2
-label57=Cell 39
+label57=Cell 36
 min57=2.50
 max57=4.25
 mode57=0
 numberDecimals57=3
 pidUUIDa57=
-pid57=2245031
+pid57=2245028
 scale57=1.0
 type57=7
 unit57=V
-userPidKey57=+Battery Cell Voltage \#39/0
-userPid57=+Battery Cell Voltage \#39
-x57=1293
-y57=282
+userPidKey57=+Battery Cell Voltage \#36/0
+userPid57=+Battery Cell Voltage \#36
+x57=1713
+y57=72
 #
-# --- PID 2245032 --- +Battery Cell Voltage \#40 ---
+# --- PID 2245029 --- +Battery Cell Voltage \#37 ---
 #
 class58=org.prowl.torque.widgets.Readout
 displayScale58=0.5
@@ -1382,22 +1382,22 @@ forcedmin58=auto
 forcedmax58=0.0
 lowFlash58=2.55
 highFlash58=4.2
-label58=Cell 40
+label58=Cell 37
 min58=2.50
 max58=4.25
 mode58=0
 numberDecimals58=3
 pidUUIDa58=
-pid58=2245032
+pid58=2245029
 scale58=1.0
 type58=7
 unit58=V
-userPidKey58=+Battery Cell Voltage \#40/0
-userPid58=+Battery Cell Voltage \#40
-x58=1503
-y58=282
+userPidKey58=+Battery Cell Voltage \#37/0
+userPid58=+Battery Cell Voltage \#37
+x58=1923
+y58=72
 #
-# --- PID 2245033 --- +Battery Cell Voltage \#41 ---
+# --- PID 2245030 --- +Battery Cell Voltage \#38 ---
 #
 class59=org.prowl.torque.widgets.Readout
 displayScale59=0.5
@@ -1406,22 +1406,22 @@ forcedmin59=auto
 forcedmax59=0.0
 lowFlash59=2.55
 highFlash59=4.2
-label59=Cell 41
+label59=Cell 38
 min59=2.50
 max59=4.25
 mode59=0
 numberDecimals59=3
 pidUUIDa59=
-pid59=2245033
+pid59=2245030
 scale59=1.0
 type59=7
 unit59=V
-userPidKey59=+Battery Cell Voltage \#41/0
-userPid59=+Battery Cell Voltage \#41
-x59=1713
+userPidKey59=+Battery Cell Voltage \#38/0
+userPid59=+Battery Cell Voltage \#38
+x59=1083
 y59=282
 #
-# --- PID 2245034 --- +Battery Cell Voltage \#42 ---
+# --- PID 2245031 --- +Battery Cell Voltage \#39 ---
 #
 class60=org.prowl.torque.widgets.Readout
 displayScale60=0.5
@@ -1430,22 +1430,22 @@ forcedmin60=auto
 forcedmax60=0.0
 lowFlash60=2.55
 highFlash60=4.2
-label60=Cell 42
+label60=Cell 39
 min60=2.50
 max60=4.25
 mode60=0
 numberDecimals60=3
 pidUUIDa60=
-pid60=2245034
+pid60=2245031
 scale60=1.0
 type60=7
 unit60=V
-userPidKey60=+Battery Cell Voltage \#42/0
-userPid60=+Battery Cell Voltage \#42
-x60=1923
+userPidKey60=+Battery Cell Voltage \#39/0
+userPid60=+Battery Cell Voltage \#39
+x60=1293
 y60=282
 #
-# --- PID 2245035 --- +Battery Cell Voltage \#43 ---
+# --- PID 2245032 --- +Battery Cell Voltage \#40 ---
 #
 class61=org.prowl.torque.widgets.Readout
 displayScale61=0.5
@@ -1454,22 +1454,22 @@ forcedmin61=auto
 forcedmax61=0.0
 lowFlash61=2.55
 highFlash61=4.2
-label61=Cell 43
+label61=Cell 40
 min61=2.50
 max61=4.25
 mode61=0
 numberDecimals61=3
 pidUUIDa61=
-pid61=2245035
+pid61=2245032
 scale61=1.0
 type61=7
 unit61=V
-userPidKey61=+Battery Cell Voltage \#43/0
-userPid61=+Battery Cell Voltage \#43
-x61=1083
-y61=492
+userPidKey61=+Battery Cell Voltage \#40/0
+userPid61=+Battery Cell Voltage \#40
+x61=1503
+y61=282
 #
-# --- PID 2245036 --- +Battery Cell Voltage \#44 ---
+# --- PID 2245033 --- +Battery Cell Voltage \#41 ---
 #
 class62=org.prowl.torque.widgets.Readout
 displayScale62=0.5
@@ -1478,22 +1478,22 @@ forcedmin62=auto
 forcedmax62=0.0
 lowFlash62=2.55
 highFlash62=4.2
-label62=Cell 44
+label62=Cell 41
 min62=2.50
 max62=4.25
 mode62=0
 numberDecimals62=3
 pidUUIDa62=
-pid62=2245036
+pid62=2245033
 scale62=1.0
 type62=7
 unit62=V
-userPidKey62=+Battery Cell Voltage \#44/0
-userPid62=+Battery Cell Voltage \#44
-x62=1293
-y62=492
+userPidKey62=+Battery Cell Voltage \#41/0
+userPid62=+Battery Cell Voltage \#41
+x62=1713
+y62=282
 #
-# --- PID 2245037 --- +Battery Cell Voltage \#45 ---
+# --- PID 2245034 --- +Battery Cell Voltage \#42 ---
 #
 class63=org.prowl.torque.widgets.Readout
 displayScale63=0.5
@@ -1502,22 +1502,22 @@ forcedmin63=auto
 forcedmax63=0.0
 lowFlash63=2.55
 highFlash63=4.2
-label63=Cell 45
+label63=Cell 42
 min63=2.50
 max63=4.25
 mode63=0
 numberDecimals63=3
 pidUUIDa63=
-pid63=2245037
+pid63=2245034
 scale63=1.0
 type63=7
 unit63=V
-userPidKey63=+Battery Cell Voltage \#45/0
-userPid63=+Battery Cell Voltage \#45
-x63=1503
-y63=492
+userPidKey63=+Battery Cell Voltage \#42/0
+userPid63=+Battery Cell Voltage \#42
+x63=1923
+y63=282
 #
-# --- PID 2245038 --- +Battery Cell Voltage \#46 ---
+# --- PID 2245035 --- +Battery Cell Voltage \#43 ---
 #
 class64=org.prowl.torque.widgets.Readout
 displayScale64=0.5
@@ -1526,22 +1526,22 @@ forcedmin64=auto
 forcedmax64=0.0
 lowFlash64=2.55
 highFlash64=4.2
-label64=Cell 46
+label64=Cell 43
 min64=2.50
 max64=4.25
 mode64=0
 numberDecimals64=3
 pidUUIDa64=
-pid64=2245038
+pid64=2245035
 scale64=1.0
 type64=7
 unit64=V
-userPidKey64=+Battery Cell Voltage \#46/0
-userPid64=+Battery Cell Voltage \#46
-x64=1713
+userPidKey64=+Battery Cell Voltage \#43/0
+userPid64=+Battery Cell Voltage \#43
+x64=1083
 y64=492
 #
-# --- PID 2245039 --- +Battery Cell Voltage \#47 ---
+# --- PID 2245036 --- +Battery Cell Voltage \#44 ---
 #
 class65=org.prowl.torque.widgets.Readout
 displayScale65=0.5
@@ -1550,22 +1550,22 @@ forcedmin65=auto
 forcedmax65=0.0
 lowFlash65=2.55
 highFlash65=4.2
-label65=Cell 47
+label65=Cell 44
 min65=2.50
 max65=4.25
 mode65=0
 numberDecimals65=3
 pidUUIDa65=
-pid65=2245039
+pid65=2245036
 scale65=1.0
 type65=7
 unit65=V
-userPidKey65=+Battery Cell Voltage \#47/0
-userPid65=+Battery Cell Voltage \#47
-x65=1923
+userPidKey65=+Battery Cell Voltage \#44/0
+userPid65=+Battery Cell Voltage \#44
+x65=1293
 y65=492
 #
-# --- PID 2245040 --- +Battery Cell Voltage \#48 ---
+# --- PID 2245037 --- +Battery Cell Voltage \#45 ---
 #
 class66=org.prowl.torque.widgets.Readout
 displayScale66=0.5
@@ -1574,22 +1574,22 @@ forcedmin66=auto
 forcedmax66=0.0
 lowFlash66=2.55
 highFlash66=4.2
-label66=Cell 48
+label66=Cell 45
 min66=2.50
 max66=4.25
 mode66=0
 numberDecimals66=3
 pidUUIDa66=
-pid66=2245040
+pid66=2245037
 scale66=1.0
 type66=7
 unit66=V
-userPidKey66=+Battery Cell Voltage \#48/0
-userPid66=+Battery Cell Voltage \#48
-x66=1083
-y66=702
+userPidKey66=+Battery Cell Voltage \#45/0
+userPid66=+Battery Cell Voltage \#45
+x66=1503
+y66=492
 #
-# --- PID 2245041 --- +Battery Cell Voltage \#49 ---
+# --- PID 2245038 --- +Battery Cell Voltage \#46 ---
 #
 class67=org.prowl.torque.widgets.Readout
 displayScale67=0.5
@@ -1598,22 +1598,22 @@ forcedmin67=auto
 forcedmax67=0.0
 lowFlash67=2.55
 highFlash67=4.2
-label67=Cell 49
+label67=Cell 46
 min67=2.50
 max67=4.25
 mode67=0
 numberDecimals67=3
 pidUUIDa67=
-pid67=2245041
+pid67=2245038
 scale67=1.0
 type67=7
 unit67=V
-userPidKey67=+Battery Cell Voltage \#49/0
-userPid67=+Battery Cell Voltage \#49
-x67=1293
-y67=702
+userPidKey67=+Battery Cell Voltage \#46/0
+userPid67=+Battery Cell Voltage \#46
+x67=1713
+y67=492
 #
-# --- PID 2245042 --- +Battery Cell Voltage \#50 ---
+# --- PID 2245039 --- +Battery Cell Voltage \#47 ---
 #
 class68=org.prowl.torque.widgets.Readout
 displayScale68=0.5
@@ -1622,22 +1622,22 @@ forcedmin68=auto
 forcedmax68=0.0
 lowFlash68=2.55
 highFlash68=4.2
-label68=Cell 50
+label68=Cell 47
 min68=2.50
 max68=4.25
 mode68=0
 numberDecimals68=3
 pidUUIDa68=
-pid68=2245042
+pid68=2245039
 scale68=1.0
 type68=7
 unit68=V
-userPidKey68=+Battery Cell Voltage \#50/0
-userPid68=+Battery Cell Voltage \#50
-x68=1503
-y68=702
+userPidKey68=+Battery Cell Voltage \#47/0
+userPid68=+Battery Cell Voltage \#47
+x68=1923
+y68=492
 #
-# --- PID 2245043 --- +Battery Cell Voltage \#51 ---
+# --- PID 2245040 --- +Battery Cell Voltage \#48 ---
 #
 class69=org.prowl.torque.widgets.Readout
 displayScale69=0.5
@@ -1646,22 +1646,22 @@ forcedmin69=auto
 forcedmax69=0.0
 lowFlash69=2.55
 highFlash69=4.2
-label69=Cell 51
+label69=Cell 48
 min69=2.50
 max69=4.25
 mode69=0
 numberDecimals69=3
 pidUUIDa69=
-pid69=2245043
+pid69=2245040
 scale69=1.0
 type69=7
 unit69=V
-userPidKey69=+Battery Cell Voltage \#51/0
-userPid69=+Battery Cell Voltage \#51
-x69=1713
+userPidKey69=+Battery Cell Voltage \#48/0
+userPid69=+Battery Cell Voltage \#48
+x69=1083
 y69=702
 #
-# --- PID 2245044 --- +Battery Cell Voltage \#52 ---
+# --- PID 2245041 --- +Battery Cell Voltage \#49 ---
 #
 class70=org.prowl.torque.widgets.Readout
 displayScale70=0.5
@@ -1670,22 +1670,22 @@ forcedmin70=auto
 forcedmax70=0.0
 lowFlash70=2.55
 highFlash70=4.2
-label70=Cell 52
+label70=Cell 49
 min70=2.50
 max70=4.25
 mode70=0
 numberDecimals70=3
 pidUUIDa70=
-pid70=2245044
+pid70=2245041
 scale70=1.0
 type70=7
 unit70=V
-userPidKey70=+Battery Cell Voltage \#52/0
-userPid70=+Battery Cell Voltage \#52
-x70=1923
+userPidKey70=+Battery Cell Voltage \#49/0
+userPid70=+Battery Cell Voltage \#49
+x70=1293
 y70=702
 #
-# --- PID 2245045 --- +Battery Cell Voltage \#53 ---
+# --- PID 2245042 --- +Battery Cell Voltage \#50 ---
 #
 class71=org.prowl.torque.widgets.Readout
 displayScale71=0.5
@@ -1694,22 +1694,22 @@ forcedmin71=auto
 forcedmax71=0.0
 lowFlash71=2.55
 highFlash71=4.2
-label71=Cell 53
+label71=Cell 50
 min71=2.50
 max71=4.25
 mode71=0
 numberDecimals71=3
 pidUUIDa71=
-pid71=2245045
+pid71=2245042
 scale71=1.0
 type71=7
 unit71=V
-userPidKey71=+Battery Cell Voltage \#53/0
-userPid71=+Battery Cell Voltage \#53
-x71=1083
-y71=912
+userPidKey71=+Battery Cell Voltage \#50/0
+userPid71=+Battery Cell Voltage \#50
+x71=1503
+y71=702
 #
-# --- PID 2245046 --- +Battery Cell Voltage \#54 ---
+# --- PID 2245043 --- +Battery Cell Voltage \#51 ---
 #
 class72=org.prowl.torque.widgets.Readout
 displayScale72=0.5
@@ -1718,22 +1718,22 @@ forcedmin72=auto
 forcedmax72=0.0
 lowFlash72=2.55
 highFlash72=4.2
-label72=Cell 54
+label72=Cell 51
 min72=2.50
 max72=4.25
 mode72=0
 numberDecimals72=3
 pidUUIDa72=
-pid72=2245046
+pid72=2245043
 scale72=1.0
 type72=7
 unit72=V
-userPidKey72=+Battery Cell Voltage \#54/0
-userPid72=+Battery Cell Voltage \#54
-x72=1293
-y72=912
+userPidKey72=+Battery Cell Voltage \#51/0
+userPid72=+Battery Cell Voltage \#51
+x72=1713
+y72=702
 #
-# --- PID 2245047 --- +Battery Cell Voltage \#55 ---
+# --- PID 2245044 --- +Battery Cell Voltage \#52 ---
 #
 class73=org.prowl.torque.widgets.Readout
 displayScale73=0.5
@@ -1742,22 +1742,22 @@ forcedmin73=auto
 forcedmax73=0.0
 lowFlash73=2.55
 highFlash73=4.2
-label73=Cell 55
+label73=Cell 52
 min73=2.50
 max73=4.25
 mode73=0
 numberDecimals73=3
 pidUUIDa73=
-pid73=2245047
+pid73=2245044
 scale73=1.0
 type73=7
 unit73=V
-userPidKey73=+Battery Cell Voltage \#55/0
-userPid73=+Battery Cell Voltage \#55
-x73=1503
-y73=912
+userPidKey73=+Battery Cell Voltage \#52/0
+userPid73=+Battery Cell Voltage \#52
+x73=1923
+y73=702
 #
-# --- PID 2245048 --- +Battery Cell Voltage \#56 ---
+# --- PID 2245045 --- +Battery Cell Voltage \#53 ---
 #
 class74=org.prowl.torque.widgets.Readout
 displayScale74=0.5
@@ -1766,22 +1766,22 @@ forcedmin74=auto
 forcedmax74=0.0
 lowFlash74=2.55
 highFlash74=4.2
-label74=Cell 56
+label74=Cell 53
 min74=2.50
 max74=4.25
 mode74=0
 numberDecimals74=3
 pidUUIDa74=
-pid74=2245048
+pid74=2245045
 scale74=1.0
 type74=7
 unit74=V
-userPidKey74=+Battery Cell Voltage \#56/0
-userPid74=+Battery Cell Voltage \#56
-x74=1713
+userPidKey74=+Battery Cell Voltage \#53/0
+userPid74=+Battery Cell Voltage \#53
+x74=1083
 y74=912
 #
-# --- PID 2245049 --- +Battery Cell Voltage \#57 ---
+# --- PID 2245046 --- +Battery Cell Voltage \#54 ---
 #
 class75=org.prowl.torque.widgets.Readout
 displayScale75=0.5
@@ -1790,22 +1790,22 @@ forcedmin75=auto
 forcedmax75=0.0
 lowFlash75=2.55
 highFlash75=4.2
-label75=Cell 57
+label75=Cell 54
 min75=2.50
 max75=4.25
 mode75=0
 numberDecimals75=3
 pidUUIDa75=
-pid75=2245049
+pid75=2245046
 scale75=1.0
 type75=7
 unit75=V
-userPidKey75=+Battery Cell Voltage \#57/0
-userPid75=+Battery Cell Voltage \#57
-x75=1923
+userPidKey75=+Battery Cell Voltage \#54/0
+userPid75=+Battery Cell Voltage \#54
+x75=1293
 y75=912
 #
-# --- PID 2245050 --- +Battery Cell Voltage \#58 ---
+# --- PID 2245047 --- +Battery Cell Voltage \#55 ---
 #
 class76=org.prowl.torque.widgets.Readout
 displayScale76=0.5
@@ -1814,22 +1814,22 @@ forcedmin76=auto
 forcedmax76=0.0
 lowFlash76=2.55
 highFlash76=4.2
-label76=Cell 58
+label76=Cell 55
 min76=2.50
 max76=4.25
 mode76=0
 numberDecimals76=3
 pidUUIDa76=
-pid76=2245050
+pid76=2245047
 scale76=1.0
 type76=7
 unit76=V
-userPidKey76=+Battery Cell Voltage \#58/0
-userPid76=+Battery Cell Voltage \#58
-x76=1083
-y76=1122
+userPidKey76=+Battery Cell Voltage \#55/0
+userPid76=+Battery Cell Voltage \#55
+x76=1503
+y76=912
 #
-# --- PID 2245051 --- +Battery Cell Voltage \#59 ---
+# --- PID 2245048 --- +Battery Cell Voltage \#56 ---
 #
 class77=org.prowl.torque.widgets.Readout
 displayScale77=0.5
@@ -1838,22 +1838,22 @@ forcedmin77=auto
 forcedmax77=0.0
 lowFlash77=2.55
 highFlash77=4.2
-label77=Cell 59
+label77=Cell 56
 min77=2.50
 max77=4.25
 mode77=0
 numberDecimals77=3
 pidUUIDa77=
-pid77=2245051
+pid77=2245048
 scale77=1.0
 type77=7
 unit77=V
-userPidKey77=+Battery Cell Voltage \#59/0
-userPid77=+Battery Cell Voltage \#59
-x77=1293
-y77=1122
+userPidKey77=+Battery Cell Voltage \#56/0
+userPid77=+Battery Cell Voltage \#56
+x77=1713
+y77=912
 #
-# --- PID 2245052 --- +Battery Cell Voltage \#60 ---
+# --- PID 2245049 --- +Battery Cell Voltage \#57 ---
 #
 class78=org.prowl.torque.widgets.Readout
 displayScale78=0.5
@@ -1862,22 +1862,22 @@ forcedmin78=auto
 forcedmax78=0.0
 lowFlash78=2.55
 highFlash78=4.2
-label78=Cell 60
+label78=Cell 57
 min78=2.50
 max78=4.25
 mode78=0
 numberDecimals78=3
 pidUUIDa78=
-pid78=2245052
+pid78=2245049
 scale78=1.0
 type78=7
 unit78=V
-userPidKey78=+Battery Cell Voltage \#60/0
-userPid78=+Battery Cell Voltage \#60
-x78=1503
-y78=1122
+userPidKey78=+Battery Cell Voltage \#57/0
+userPid78=+Battery Cell Voltage \#57
+x78=1923
+y78=912
 #
-# --- PID 2245053 --- +Battery Cell Voltage \#61 ---
+# --- PID 2245050 --- +Battery Cell Voltage \#58 ---
 #
 class79=org.prowl.torque.widgets.Readout
 displayScale79=0.5
@@ -1886,22 +1886,22 @@ forcedmin79=auto
 forcedmax79=0.0
 lowFlash79=2.55
 highFlash79=4.2
-label79=Cell 61
+label79=Cell 58
 min79=2.50
 max79=4.25
 mode79=0
 numberDecimals79=3
 pidUUIDa79=
-pid79=2245053
+pid79=2245050
 scale79=1.0
 type79=7
 unit79=V
-userPidKey79=+Battery Cell Voltage \#61/0
-userPid79=+Battery Cell Voltage \#61
-x79=1713
+userPidKey79=+Battery Cell Voltage \#58/0
+userPid79=+Battery Cell Voltage \#58
+x79=1083
 y79=1122
 #
-# --- PID 2245054 --- +Battery Cell Voltage \#62 ---
+# --- PID 2245051 --- +Battery Cell Voltage \#59 ---
 #
 class80=org.prowl.torque.widgets.Readout
 displayScale80=0.5
@@ -1910,22 +1910,22 @@ forcedmin80=auto
 forcedmax80=0.0
 lowFlash80=2.55
 highFlash80=4.2
-label80=Cell 62
+label80=Cell 59
 min80=2.50
 max80=4.25
 mode80=0
 numberDecimals80=3
 pidUUIDa80=
-pid80=2245054
+pid80=2245051
 scale80=1.0
 type80=7
 unit80=V
-userPidKey80=+Battery Cell Voltage \#62/0
-userPid80=+Battery Cell Voltage \#62
-x80=1923
+userPidKey80=+Battery Cell Voltage \#59/0
+userPid80=+Battery Cell Voltage \#59
+x80=1293
 y80=1122
 #
-# --- PID 2245055 --- +Battery Cell Voltage \#63 ---
+# --- PID 2245052 --- +Battery Cell Voltage \#60 ---
 #
 class81=org.prowl.torque.widgets.Readout
 displayScale81=0.5
@@ -1934,22 +1934,22 @@ forcedmin81=auto
 forcedmax81=0.0
 lowFlash81=2.55
 highFlash81=4.2
-label81=Cell 63
+label81=Cell 60
 min81=2.50
 max81=4.25
 mode81=0
 numberDecimals81=3
 pidUUIDa81=
-pid81=2245055
+pid81=2245052
 scale81=1.0
 type81=7
 unit81=V
-userPidKey81=+Battery Cell Voltage \#63/0
-userPid81=+Battery Cell Voltage \#63
-x81=1083
-y81=1332
+userPidKey81=+Battery Cell Voltage \#60/0
+userPid81=+Battery Cell Voltage \#60
+x81=1503
+y81=1122
 #
-# --- PID 2245056 --- +Battery Cell Voltage \#64 ---
+# --- PID 2245053 --- +Battery Cell Voltage \#61 ---
 #
 class82=org.prowl.torque.widgets.Readout
 displayScale82=0.5
@@ -1958,22 +1958,22 @@ forcedmin82=auto
 forcedmax82=0.0
 lowFlash82=2.55
 highFlash82=4.2
-label82=Cell 64
+label82=Cell 61
 min82=2.50
 max82=4.25
 mode82=0
 numberDecimals82=3
 pidUUIDa82=
-pid82=2245056
+pid82=2245053
 scale82=1.0
 type82=7
 unit82=V
-userPidKey82=+Battery Cell Voltage \#64/0
-userPid82=+Battery Cell Voltage \#64
-x82=1293
-y82=1332
+userPidKey82=+Battery Cell Voltage \#61/0
+userPid82=+Battery Cell Voltage \#61
+x82=1713
+y82=1122
 #
-# --- PID 2245057 --- +Battery Cell Voltage \#65 ---
+# --- PID 2245054 --- +Battery Cell Voltage \#62 ---
 #
 class83=org.prowl.torque.widgets.Readout
 displayScale83=0.5
@@ -1982,22 +1982,22 @@ forcedmin83=auto
 forcedmax83=0.0
 lowFlash83=2.55
 highFlash83=4.2
-label83=Cell 65
+label83=Cell 62
 min83=2.50
 max83=4.25
 mode83=0
 numberDecimals83=3
 pidUUIDa83=
-pid83=2245057
+pid83=2245054
 scale83=1.0
 type83=7
 unit83=V
-userPidKey83=+Battery Cell Voltage \#65/0
-userPid83=+Battery Cell Voltage \#65
-x83=2163
-y83=72
+userPidKey83=+Battery Cell Voltage \#62/0
+userPid83=+Battery Cell Voltage \#62
+x83=1923
+y83=1122
 #
-# --- PID 2245058 --- +Battery Cell Voltage \#66 ---
+# --- PID 2245055 --- +Battery Cell Voltage \#63 ---
 #
 class84=org.prowl.torque.widgets.Readout
 displayScale84=0.5
@@ -2006,22 +2006,22 @@ forcedmin84=auto
 forcedmax84=0.0
 lowFlash84=2.55
 highFlash84=4.2
-label84=Cell 66
+label84=Cell 63
 min84=2.50
 max84=4.25
 mode84=0
 numberDecimals84=3
 pidUUIDa84=
-pid84=2245058
+pid84=2245055
 scale84=1.0
 type84=7
 unit84=V
-userPidKey84=+Battery Cell Voltage \#66/0
-userPid84=+Battery Cell Voltage \#66
-x84=2373
-y84=72
+userPidKey84=+Battery Cell Voltage \#63/0
+userPid84=+Battery Cell Voltage \#63
+x84=1083
+y84=1332
 #
-# --- PID 2245059 --- +Battery Cell Voltage \#67 ---
+# --- PID 2245056 --- +Battery Cell Voltage \#64 ---
 #
 class85=org.prowl.torque.widgets.Readout
 displayScale85=0.5
@@ -2030,22 +2030,22 @@ forcedmin85=auto
 forcedmax85=0.0
 lowFlash85=2.55
 highFlash85=4.2
-label85=Cell 67
+label85=Cell 64
 min85=2.50
 max85=4.25
 mode85=0
 numberDecimals85=3
 pidUUIDa85=
-pid85=2245059
+pid85=2245056
 scale85=1.0
 type85=7
 unit85=V
-userPidKey85=+Battery Cell Voltage \#67/0
-userPid85=+Battery Cell Voltage \#67
-x85=2583
-y85=72
+userPidKey85=+Battery Cell Voltage \#64/0
+userPid85=+Battery Cell Voltage \#64
+x85=1293
+y85=1332
 #
-# --- PID 2245060 --- +Battery Cell Voltage \#68 ---
+# --- PID 2245057 --- +Battery Cell Voltage \#65 ---
 #
 class86=org.prowl.torque.widgets.Readout
 displayScale86=0.5
@@ -2054,22 +2054,22 @@ forcedmin86=auto
 forcedmax86=0.0
 lowFlash86=2.55
 highFlash86=4.2
-label86=Cell 68
+label86=Cell 65
 min86=2.50
 max86=4.25
 mode86=0
 numberDecimals86=3
 pidUUIDa86=
-pid86=2245060
+pid86=2245057
 scale86=1.0
 type86=7
 unit86=V
-userPidKey86=+Battery Cell Voltage \#68/0
-userPid86=+Battery Cell Voltage \#68
-x86=2793
+userPidKey86=+Battery Cell Voltage \#65/0
+userPid86=+Battery Cell Voltage \#65
+x86=2163
 y86=72
 #
-# --- PID 2245061 --- +Battery Cell Voltage \#69 ---
+# --- PID 2245058 --- +Battery Cell Voltage \#66 ---
 #
 class87=org.prowl.torque.widgets.Readout
 displayScale87=0.5
@@ -2078,22 +2078,22 @@ forcedmin87=auto
 forcedmax87=0.0
 lowFlash87=2.55
 highFlash87=4.2
-label87=Cell 69
+label87=Cell 66
 min87=2.50
 max87=4.25
 mode87=0
 numberDecimals87=3
 pidUUIDa87=
-pid87=2245061
+pid87=2245058
 scale87=1.0
 type87=7
 unit87=V
-userPidKey87=+Battery Cell Voltage \#69/0
-userPid87=+Battery Cell Voltage \#69
-x87=3003
+userPidKey87=+Battery Cell Voltage \#66/0
+userPid87=+Battery Cell Voltage \#66
+x87=2373
 y87=72
 #
-# --- PID 2245062 --- +Battery Cell Voltage \#70 ---
+# --- PID 2245059 --- +Battery Cell Voltage \#67 ---
 #
 class88=org.prowl.torque.widgets.Readout
 displayScale88=0.5
@@ -2102,22 +2102,22 @@ forcedmin88=auto
 forcedmax88=0.0
 lowFlash88=2.55
 highFlash88=4.2
-label88=Cell 70
+label88=Cell 67
 min88=2.50
 max88=4.25
 mode88=0
 numberDecimals88=3
 pidUUIDa88=
-pid88=2245062
+pid88=2245059
 scale88=1.0
 type88=7
 unit88=V
-userPidKey88=+Battery Cell Voltage \#70/0
-userPid88=+Battery Cell Voltage \#70
-x88=2163
-y88=282
+userPidKey88=+Battery Cell Voltage \#67/0
+userPid88=+Battery Cell Voltage \#67
+x88=2583
+y88=72
 #
-# --- PID 2245063 --- +Battery Cell Voltage \#71 ---
+# --- PID 2245060 --- +Battery Cell Voltage \#68 ---
 #
 class89=org.prowl.torque.widgets.Readout
 displayScale89=0.5
@@ -2126,22 +2126,22 @@ forcedmin89=auto
 forcedmax89=0.0
 lowFlash89=2.55
 highFlash89=4.2
-label89=Cell 71
+label89=Cell 68
 min89=2.50
 max89=4.25
 mode89=0
 numberDecimals89=3
 pidUUIDa89=
-pid89=2245063
+pid89=2245060
 scale89=1.0
 type89=7
 unit89=V
-userPidKey89=+Battery Cell Voltage \#71/0
-userPid89=+Battery Cell Voltage \#71
-x89=2373
-y89=282
+userPidKey89=+Battery Cell Voltage \#68/0
+userPid89=+Battery Cell Voltage \#68
+x89=2793
+y89=72
 #
-# --- PID 2245064 --- +Battery Cell Voltage \#72 ---
+# --- PID 2245061 --- +Battery Cell Voltage \#69 ---
 #
 class90=org.prowl.torque.widgets.Readout
 displayScale90=0.5
@@ -2150,22 +2150,22 @@ forcedmin90=auto
 forcedmax90=0.0
 lowFlash90=2.55
 highFlash90=4.2
-label90=Cell 72
+label90=Cell 69
 min90=2.50
 max90=4.25
 mode90=0
 numberDecimals90=3
 pidUUIDa90=
-pid90=2245064
+pid90=2245061
 scale90=1.0
 type90=7
 unit90=V
-userPidKey90=+Battery Cell Voltage \#72/0
-userPid90=+Battery Cell Voltage \#72
-x90=2583
-y90=282
+userPidKey90=+Battery Cell Voltage \#69/0
+userPid90=+Battery Cell Voltage \#69
+x90=3003
+y90=72
 #
-# --- PID 2245065 --- +Battery Cell Voltage \#73 ---
+# --- PID 2245062 --- +Battery Cell Voltage \#70 ---
 #
 class91=org.prowl.torque.widgets.Readout
 displayScale91=0.5
@@ -2174,22 +2174,22 @@ forcedmin91=auto
 forcedmax91=0.0
 lowFlash91=2.55
 highFlash91=4.2
-label91=Cell 73
+label91=Cell 70
 min91=2.50
 max91=4.25
 mode91=0
 numberDecimals91=3
 pidUUIDa91=
-pid91=2245065
+pid91=2245062
 scale91=1.0
 type91=7
 unit91=V
-userPidKey91=+Battery Cell Voltage \#73/0
-userPid91=+Battery Cell Voltage \#73
-x91=2793
+userPidKey91=+Battery Cell Voltage \#70/0
+userPid91=+Battery Cell Voltage \#70
+x91=2163
 y91=282
 #
-# --- PID 2245066 --- +Battery Cell Voltage \#74 ---
+# --- PID 2245063 --- +Battery Cell Voltage \#71 ---
 #
 class92=org.prowl.torque.widgets.Readout
 displayScale92=0.5
@@ -2198,22 +2198,22 @@ forcedmin92=auto
 forcedmax92=0.0
 lowFlash92=2.55
 highFlash92=4.2
-label92=Cell 74
+label92=Cell 71
 min92=2.50
 max92=4.25
 mode92=0
 numberDecimals92=3
 pidUUIDa92=
-pid92=2245066
+pid92=2245063
 scale92=1.0
 type92=7
 unit92=V
-userPidKey92=+Battery Cell Voltage \#74/0
-userPid92=+Battery Cell Voltage \#74
-x92=3003
+userPidKey92=+Battery Cell Voltage \#71/0
+userPid92=+Battery Cell Voltage \#71
+x92=2373
 y92=282
 #
-# --- PID 2245067 --- +Battery Cell Voltage \#75 ---
+# --- PID 2245064 --- +Battery Cell Voltage \#72 ---
 #
 class93=org.prowl.torque.widgets.Readout
 displayScale93=0.5
@@ -2222,22 +2222,22 @@ forcedmin93=auto
 forcedmax93=0.0
 lowFlash93=2.55
 highFlash93=4.2
-label93=Cell 75
+label93=Cell 72
 min93=2.50
 max93=4.25
 mode93=0
 numberDecimals93=3
 pidUUIDa93=
-pid93=2245067
+pid93=2245064
 scale93=1.0
 type93=7
 unit93=V
-userPidKey93=+Battery Cell Voltage \#75/0
-userPid93=+Battery Cell Voltage \#75
-x93=2163
-y93=492
+userPidKey93=+Battery Cell Voltage \#72/0
+userPid93=+Battery Cell Voltage \#72
+x93=2583
+y93=282
 #
-# --- PID 2245068 --- +Battery Cell Voltage \#76 ---
+# --- PID 2245065 --- +Battery Cell Voltage \#73 ---
 #
 class94=org.prowl.torque.widgets.Readout
 displayScale94=0.5
@@ -2246,22 +2246,22 @@ forcedmin94=auto
 forcedmax94=0.0
 lowFlash94=2.55
 highFlash94=4.2
-label94=Cell 76
+label94=Cell 73
 min94=2.50
 max94=4.25
 mode94=0
 numberDecimals94=3
 pidUUIDa94=
-pid94=2245068
+pid94=2245065
 scale94=1.0
 type94=7
 unit94=V
-userPidKey94=+Battery Cell Voltage \#76/0
-userPid94=+Battery Cell Voltage \#76
-x94=2373
-y94=492
+userPidKey94=+Battery Cell Voltage \#73/0
+userPid94=+Battery Cell Voltage \#73
+x94=2793
+y94=282
 #
-# --- PID 2245069 --- +Battery Cell Voltage \#77 ---
+# --- PID 2245066 --- +Battery Cell Voltage \#74 ---
 #
 class95=org.prowl.torque.widgets.Readout
 displayScale95=0.5
@@ -2270,22 +2270,22 @@ forcedmin95=auto
 forcedmax95=0.0
 lowFlash95=2.55
 highFlash95=4.2
-label95=Cell 77
+label95=Cell 74
 min95=2.50
 max95=4.25
 mode95=0
 numberDecimals95=3
 pidUUIDa95=
-pid95=2245069
+pid95=2245066
 scale95=1.0
 type95=7
 unit95=V
-userPidKey95=+Battery Cell Voltage \#77/0
-userPid95=+Battery Cell Voltage \#77
-x95=2583
-y95=492
+userPidKey95=+Battery Cell Voltage \#74/0
+userPid95=+Battery Cell Voltage \#74
+x95=3003
+y95=282
 #
-# --- PID 2245070 --- +Battery Cell Voltage \#78 ---
+# --- PID 2245067 --- +Battery Cell Voltage \#75 ---
 #
 class96=org.prowl.torque.widgets.Readout
 displayScale96=0.5
@@ -2294,22 +2294,22 @@ forcedmin96=auto
 forcedmax96=0.0
 lowFlash96=2.55
 highFlash96=4.2
-label96=Cell 78
+label96=Cell 75
 min96=2.50
 max96=4.25
 mode96=0
 numberDecimals96=3
 pidUUIDa96=
-pid96=2245070
+pid96=2245067
 scale96=1.0
 type96=7
 unit96=V
-userPidKey96=+Battery Cell Voltage \#78/0
-userPid96=+Battery Cell Voltage \#78
-x96=2793
+userPidKey96=+Battery Cell Voltage \#75/0
+userPid96=+Battery Cell Voltage \#75
+x96=2163
 y96=492
 #
-# --- PID 2245071 --- +Battery Cell Voltage \#79 ---
+# --- PID 2245068 --- +Battery Cell Voltage \#76 ---
 #
 class97=org.prowl.torque.widgets.Readout
 displayScale97=0.5
@@ -2318,22 +2318,22 @@ forcedmin97=auto
 forcedmax97=0.0
 lowFlash97=2.55
 highFlash97=4.2
-label97=Cell 79
+label97=Cell 76
 min97=2.50
 max97=4.25
 mode97=0
 numberDecimals97=3
 pidUUIDa97=
-pid97=2245071
+pid97=2245068
 scale97=1.0
 type97=7
 unit97=V
-userPidKey97=+Battery Cell Voltage \#79/0
-userPid97=+Battery Cell Voltage \#79
-x97=3003
+userPidKey97=+Battery Cell Voltage \#76/0
+userPid97=+Battery Cell Voltage \#76
+x97=2373
 y97=492
 #
-# --- PID 2245072 --- +Battery Cell Voltage \#80 ---
+# --- PID 2245069 --- +Battery Cell Voltage \#77 ---
 #
 class98=org.prowl.torque.widgets.Readout
 displayScale98=0.5
@@ -2342,22 +2342,22 @@ forcedmin98=auto
 forcedmax98=0.0
 lowFlash98=2.55
 highFlash98=4.2
-label98=Cell 80
+label98=Cell 77
 min98=2.50
 max98=4.25
 mode98=0
 numberDecimals98=3
 pidUUIDa98=
-pid98=2245072
+pid98=2245069
 scale98=1.0
 type98=7
 unit98=V
-userPidKey98=+Battery Cell Voltage \#80/0
-userPid98=+Battery Cell Voltage \#80
-x98=2163
-y98=702
+userPidKey98=+Battery Cell Voltage \#77/0
+userPid98=+Battery Cell Voltage \#77
+x98=2583
+y98=492
 #
-# --- PID 2245073 --- +Battery Cell Voltage \#81 ---
+# --- PID 2245070 --- +Battery Cell Voltage \#78 ---
 #
 class99=org.prowl.torque.widgets.Readout
 displayScale99=0.5
@@ -2366,22 +2366,22 @@ forcedmin99=auto
 forcedmax99=0.0
 lowFlash99=2.55
 highFlash99=4.2
-label99=Cell 81
+label99=Cell 78
 min99=2.50
 max99=4.25
 mode99=0
 numberDecimals99=3
 pidUUIDa99=
-pid99=2245073
+pid99=2245070
 scale99=1.0
 type99=7
 unit99=V
-userPidKey99=+Battery Cell Voltage \#81/0
-userPid99=+Battery Cell Voltage \#81
-x99=2373
-y99=702
+userPidKey99=+Battery Cell Voltage \#78/0
+userPid99=+Battery Cell Voltage \#78
+x99=2793
+y99=492
 #
-# --- PID 2245074 --- +Battery Cell Voltage \#82 ---
+# --- PID 2245071 --- +Battery Cell Voltage \#79 ---
 #
 class100=org.prowl.torque.widgets.Readout
 displayScale100=0.5
@@ -2390,22 +2390,22 @@ forcedmin100=auto
 forcedmax100=0.0
 lowFlash100=2.55
 highFlash100=4.2
-label100=Cell 82
+label100=Cell 79
 min100=2.50
 max100=4.25
 mode100=0
 numberDecimals100=3
 pidUUIDa100=
-pid100=2245074
+pid100=2245071
 scale100=1.0
 type100=7
 unit100=V
-userPidKey100=+Battery Cell Voltage \#82/0
-userPid100=+Battery Cell Voltage \#82
-x100=2583
-y100=702
+userPidKey100=+Battery Cell Voltage \#79/0
+userPid100=+Battery Cell Voltage \#79
+x100=3003
+y100=492
 #
-# --- PID 2245075 --- +Battery Cell Voltage \#83 ---
+# --- PID 2245072 --- +Battery Cell Voltage \#80 ---
 #
 class101=org.prowl.torque.widgets.Readout
 displayScale101=0.5
@@ -2414,22 +2414,22 @@ forcedmin101=auto
 forcedmax101=0.0
 lowFlash101=2.55
 highFlash101=4.2
-label101=Cell 83
+label101=Cell 80
 min101=2.50
 max101=4.25
 mode101=0
 numberDecimals101=3
 pidUUIDa101=
-pid101=2245075
+pid101=2245072
 scale101=1.0
 type101=7
 unit101=V
-userPidKey101=+Battery Cell Voltage \#83/0
-userPid101=+Battery Cell Voltage \#83
-x101=2793
+userPidKey101=+Battery Cell Voltage \#80/0
+userPid101=+Battery Cell Voltage \#80
+x101=2163
 y101=702
 #
-# --- PID 2245076 --- +Battery Cell Voltage \#84 ---
+# --- PID 2245073 --- +Battery Cell Voltage \#81 ---
 #
 class102=org.prowl.torque.widgets.Readout
 displayScale102=0.5
@@ -2438,22 +2438,22 @@ forcedmin102=auto
 forcedmax102=0.0
 lowFlash102=2.55
 highFlash102=4.2
-label102=Cell 84
+label102=Cell 81
 min102=2.50
 max102=4.25
 mode102=0
 numberDecimals102=3
 pidUUIDa102=
-pid102=2245076
+pid102=2245073
 scale102=1.0
 type102=7
 unit102=V
-userPidKey102=+Battery Cell Voltage \#84/0
-userPid102=+Battery Cell Voltage \#84
-x102=3003
+userPidKey102=+Battery Cell Voltage \#81/0
+userPid102=+Battery Cell Voltage \#81
+x102=2373
 y102=702
 #
-# --- PID 2245077 --- +Battery Cell Voltage \#85 ---
+# --- PID 2245074 --- +Battery Cell Voltage \#82 ---
 #
 class103=org.prowl.torque.widgets.Readout
 displayScale103=0.5
@@ -2462,22 +2462,22 @@ forcedmin103=auto
 forcedmax103=0.0
 lowFlash103=2.55
 highFlash103=4.2
-label103=Cell 85
+label103=Cell 82
 min103=2.50
 max103=4.25
 mode103=0
 numberDecimals103=3
 pidUUIDa103=
-pid103=2245077
+pid103=2245074
 scale103=1.0
 type103=7
 unit103=V
-userPidKey103=+Battery Cell Voltage \#85/0
-userPid103=+Battery Cell Voltage \#85
-x103=2163
-y103=912
+userPidKey103=+Battery Cell Voltage \#82/0
+userPid103=+Battery Cell Voltage \#82
+x103=2583
+y103=702
 #
-# --- PID 2245078 --- +Battery Cell Voltage \#86 ---
+# --- PID 2245075 --- +Battery Cell Voltage \#83 ---
 #
 class104=org.prowl.torque.widgets.Readout
 displayScale104=0.5
@@ -2486,22 +2486,22 @@ forcedmin104=auto
 forcedmax104=0.0
 lowFlash104=2.55
 highFlash104=4.2
-label104=Cell 86
+label104=Cell 83
 min104=2.50
 max104=4.25
 mode104=0
 numberDecimals104=3
 pidUUIDa104=
-pid104=2245078
+pid104=2245075
 scale104=1.0
 type104=7
 unit104=V
-userPidKey104=+Battery Cell Voltage \#86/0
-userPid104=+Battery Cell Voltage \#86
-x104=2373
-y104=912
+userPidKey104=+Battery Cell Voltage \#83/0
+userPid104=+Battery Cell Voltage \#83
+x104=2793
+y104=702
 #
-# --- PID 2245079 --- +Battery Cell Voltage \#87 ---
+# --- PID 2245076 --- +Battery Cell Voltage \#84 ---
 #
 class105=org.prowl.torque.widgets.Readout
 displayScale105=0.5
@@ -2510,22 +2510,22 @@ forcedmin105=auto
 forcedmax105=0.0
 lowFlash105=2.55
 highFlash105=4.2
-label105=Cell 87
+label105=Cell 84
 min105=2.50
 max105=4.25
 mode105=0
 numberDecimals105=3
 pidUUIDa105=
-pid105=2245079
+pid105=2245076
 scale105=1.0
 type105=7
 unit105=V
-userPidKey105=+Battery Cell Voltage \#87/0
-userPid105=+Battery Cell Voltage \#87
-x105=2583
-y105=912
+userPidKey105=+Battery Cell Voltage \#84/0
+userPid105=+Battery Cell Voltage \#84
+x105=3003
+y105=702
 #
-# --- PID 2245080 --- +Battery Cell Voltage \#88 ---
+# --- PID 2245077 --- +Battery Cell Voltage \#85 ---
 #
 class106=org.prowl.torque.widgets.Readout
 displayScale106=0.5
@@ -2534,22 +2534,22 @@ forcedmin106=auto
 forcedmax106=0.0
 lowFlash106=2.55
 highFlash106=4.2
-label106=Cell 88
+label106=Cell 85
 min106=2.50
 max106=4.25
 mode106=0
 numberDecimals106=3
 pidUUIDa106=
-pid106=2245080
+pid106=2245077
 scale106=1.0
 type106=7
 unit106=V
-userPidKey106=+Battery Cell Voltage \#88/0
-userPid106=+Battery Cell Voltage \#88
-x106=2793
+userPidKey106=+Battery Cell Voltage \#85/0
+userPid106=+Battery Cell Voltage \#85
+x106=2163
 y106=912
 #
-# --- PID 2245081 --- +Battery Cell Voltage \#89 ---
+# --- PID 2245078 --- +Battery Cell Voltage \#86 ---
 #
 class107=org.prowl.torque.widgets.Readout
 displayScale107=0.5
@@ -2558,22 +2558,22 @@ forcedmin107=auto
 forcedmax107=0.0
 lowFlash107=2.55
 highFlash107=4.2
-label107=Cell 89
+label107=Cell 86
 min107=2.50
 max107=4.25
 mode107=0
 numberDecimals107=3
 pidUUIDa107=
-pid107=2245081
+pid107=2245078
 scale107=1.0
 type107=7
 unit107=V
-userPidKey107=+Battery Cell Voltage \#89/0
-userPid107=+Battery Cell Voltage \#89
-x107=3003
+userPidKey107=+Battery Cell Voltage \#86/0
+userPid107=+Battery Cell Voltage \#86
+x107=2373
 y107=912
 #
-# --- PID 2245082 --- +Battery Cell Voltage \#90 ---
+# --- PID 2245079 --- +Battery Cell Voltage \#87 ---
 #
 class108=org.prowl.torque.widgets.Readout
 displayScale108=0.5
@@ -2582,22 +2582,22 @@ forcedmin108=auto
 forcedmax108=0.0
 lowFlash108=2.55
 highFlash108=4.2
-label108=Cell 90
+label108=Cell 87
 min108=2.50
 max108=4.25
 mode108=0
 numberDecimals108=3
 pidUUIDa108=
-pid108=2245082
+pid108=2245079
 scale108=1.0
 type108=7
 unit108=V
-userPidKey108=+Battery Cell Voltage \#90/0
-userPid108=+Battery Cell Voltage \#90
-x108=2163
-y108=1122
+userPidKey108=+Battery Cell Voltage \#87/0
+userPid108=+Battery Cell Voltage \#87
+x108=2583
+y108=912
 #
-# --- PID 2245083 --- +Battery Cell Voltage \#91 ---
+# --- PID 2245080 --- +Battery Cell Voltage \#88 ---
 #
 class109=org.prowl.torque.widgets.Readout
 displayScale109=0.5
@@ -2606,22 +2606,22 @@ forcedmin109=auto
 forcedmax109=0.0
 lowFlash109=2.55
 highFlash109=4.2
-label109=Cell 91
+label109=Cell 88
 min109=2.50
 max109=4.25
 mode109=0
 numberDecimals109=3
 pidUUIDa109=
-pid109=2245083
+pid109=2245080
 scale109=1.0
 type109=7
 unit109=V
-userPidKey109=+Battery Cell Voltage \#91/0
-userPid109=+Battery Cell Voltage \#91
-x109=2373
-y109=1122
+userPidKey109=+Battery Cell Voltage \#88/0
+userPid109=+Battery Cell Voltage \#88
+x109=2793
+y109=912
 #
-# --- PID 2245084 --- +Battery Cell Voltage \#92 ---
+# --- PID 2245081 --- +Battery Cell Voltage \#89 ---
 #
 class110=org.prowl.torque.widgets.Readout
 displayScale110=0.5
@@ -2630,22 +2630,22 @@ forcedmin110=auto
 forcedmax110=0.0
 lowFlash110=2.55
 highFlash110=4.2
-label110=Cell 92
+label110=Cell 89
 min110=2.50
 max110=4.25
 mode110=0
 numberDecimals110=3
 pidUUIDa110=
-pid110=2245084
+pid110=2245081
 scale110=1.0
 type110=7
 unit110=V
-userPidKey110=+Battery Cell Voltage \#92/0
-userPid110=+Battery Cell Voltage \#92
-x110=2583
-y110=1122
+userPidKey110=+Battery Cell Voltage \#89/0
+userPid110=+Battery Cell Voltage \#89
+x110=3003
+y110=912
 #
-# --- PID 2245085 --- +Battery Cell Voltage \#93 ---
+# --- PID 2245082 --- +Battery Cell Voltage \#90 ---
 #
 class111=org.prowl.torque.widgets.Readout
 displayScale111=0.5
@@ -2654,22 +2654,22 @@ forcedmin111=auto
 forcedmax111=0.0
 lowFlash111=2.55
 highFlash111=4.2
-label111=Cell 93
+label111=Cell 90
 min111=2.50
 max111=4.25
 mode111=0
 numberDecimals111=3
 pidUUIDa111=
-pid111=2245085
+pid111=2245082
 scale111=1.0
 type111=7
 unit111=V
-userPidKey111=+Battery Cell Voltage \#93/0
-userPid111=+Battery Cell Voltage \#93
-x111=2793
+userPidKey111=+Battery Cell Voltage \#90/0
+userPid111=+Battery Cell Voltage \#90
+x111=2163
 y111=1122
 #
-# --- PID 2245086 --- +Battery Cell Voltage \#94 ---
+# --- PID 2245083 --- +Battery Cell Voltage \#91 ---
 #
 class112=org.prowl.torque.widgets.Readout
 displayScale112=0.5
@@ -2678,22 +2678,22 @@ forcedmin112=auto
 forcedmax112=0.0
 lowFlash112=2.55
 highFlash112=4.2
-label112=Cell 94
+label112=Cell 91
 min112=2.50
 max112=4.25
 mode112=0
 numberDecimals112=3
 pidUUIDa112=
-pid112=2245086
+pid112=2245083
 scale112=1.0
 type112=7
 unit112=V
-userPidKey112=+Battery Cell Voltage \#94/0
-userPid112=+Battery Cell Voltage \#94
-x112=3003
+userPidKey112=+Battery Cell Voltage \#91/0
+userPid112=+Battery Cell Voltage \#91
+x112=2373
 y112=1122
 #
-# --- PID 2245087 --- +Battery Cell Voltage \#95 ---
+# --- PID 2245084 --- +Battery Cell Voltage \#92 ---
 #
 class113=org.prowl.torque.widgets.Readout
 displayScale113=0.5
@@ -2702,22 +2702,22 @@ forcedmin113=auto
 forcedmax113=0.0
 lowFlash113=2.55
 highFlash113=4.2
-label113=Cell 95
+label113=Cell 92
 min113=2.50
 max113=4.25
 mode113=0
 numberDecimals113=3
 pidUUIDa113=
-pid113=2245087
+pid113=2245084
 scale113=1.0
 type113=7
 unit113=V
-userPidKey113=+Battery Cell Voltage \#95/0
-userPid113=+Battery Cell Voltage \#95
-x113=2163
-y113=1332
+userPidKey113=+Battery Cell Voltage \#92/0
+userPid113=+Battery Cell Voltage \#92
+x113=2583
+y113=1122
 #
-# --- PID 2245088 --- +Battery Cell Voltage \#96 ---
+# --- PID 2245085 --- +Battery Cell Voltage \#93 ---
 #
 class114=org.prowl.torque.widgets.Readout
 displayScale114=0.5
@@ -2726,17 +2726,89 @@ forcedmin114=auto
 forcedmax114=0.0
 lowFlash114=2.55
 highFlash114=4.2
-label114=Cell 96
+label114=Cell 93
 min114=2.50
 max114=4.25
 mode114=0
 numberDecimals114=3
 pidUUIDa114=
-pid114=2245088
+pid114=2245085
 scale114=1.0
 type114=7
 unit114=V
-userPidKey114=+Battery Cell Voltage \#96/0
-userPid114=+Battery Cell Voltage \#96
-x114=2373
-y114=1332
+userPidKey114=+Battery Cell Voltage \#93/0
+userPid114=+Battery Cell Voltage \#93
+x114=2793
+y114=1122
+#
+# --- PID 2245086 --- +Battery Cell Voltage \#94 ---
+#
+class115=org.prowl.torque.widgets.Readout
+displayScale115=0.5
+extraConfigA115=
+forcedmin115=auto
+forcedmax115=0.0
+lowFlash115=2.55
+highFlash115=4.2
+label115=Cell 94
+min115=2.50
+max115=4.25
+mode115=0
+numberDecimals115=3
+pidUUIDa115=
+pid115=2245086
+scale115=1.0
+type115=7
+unit115=V
+userPidKey115=+Battery Cell Voltage \#94/0
+userPid115=+Battery Cell Voltage \#94
+x115=3003
+y115=1122
+#
+# --- PID 2245087 --- +Battery Cell Voltage \#95 ---
+#
+class116=org.prowl.torque.widgets.Readout
+displayScale116=0.5
+extraConfigA116=
+forcedmin116=auto
+forcedmax116=0.0
+lowFlash116=2.55
+highFlash116=4.2
+label116=Cell 95
+min116=2.50
+max116=4.25
+mode116=0
+numberDecimals116=3
+pidUUIDa116=
+pid116=2245087
+scale116=1.0
+type116=7
+unit116=V
+userPidKey116=+Battery Cell Voltage \#95/0
+userPid116=+Battery Cell Voltage \#95
+x116=2163
+y116=1332
+#
+# --- PID 2245088 --- +Battery Cell Voltage \#96 ---
+#
+class117=org.prowl.torque.widgets.Readout
+displayScale117=0.5
+extraConfigA117=
+forcedmin117=auto
+forcedmax117=0.0
+lowFlash117=2.55
+highFlash117=4.2
+label117=Cell 96
+min117=2.50
+max117=4.25
+mode117=0
+numberDecimals117=3
+pidUUIDa117=
+pid117=2245088
+scale117=1.0
+type117=7
+unit117=V
+userPidKey117=+Battery Cell Voltage \#96/0
+userPid117=+Battery Cell Voltage \#96
+x117=2373
+y117=1332

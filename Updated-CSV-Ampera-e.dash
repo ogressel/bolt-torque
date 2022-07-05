@@ -531,7 +531,7 @@ unit22=W
 userPid22=\!Heater - Battery
 userPidKey22=\!Heater - Battery/0
 x22=-552
-y22=768
+y22=1216
 #
 # --- PID 2245042 --- *Electronics ? Pump RPM ---
 #
@@ -555,7 +555,7 @@ unit23=RPM
 userPid23=*Electronics ? Pump RPM
 userPidKey23=*Electronics ? Pump RPM/0
 x23=-552
-y23=1216
+y23=1664
 #
 # --- PID 2244993 --- +Battery Cell Voltage \#01 ---
 #

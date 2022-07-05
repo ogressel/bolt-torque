@@ -147,14 +147,17 @@ templ=( "heater" "pump" )
 
 cid=0
 
+x1=$(( 504 ))
+y1=$(( ycoord-y0 ))
+
 for id in $(seq 0 1); do
 
     cid=$((cid+1))
 
     # --- screen coordinates
 
-    xcoord=$(( x0 + 504 ))
-    ycoord=$(( y0 + 672 + 448*id ))
+    xcoord=$(( x0 + x1 ))
+    ycoord=$(( y0 + y1 + 448*id ))
 
     # --- write .dash file
 
