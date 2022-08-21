@@ -47,7 +47,7 @@ userPidKey1=!Charger - HV Current/0
 x1=-2068
 y1=544
 #
-# --- PID 15540910 --- !Charger - HV Power ---
+# --- PID 15540910 --- *Charger - DC Port KW ---
 #
 class2=org.prowl.torque.widgets.HalfDial
 displayScale2=1.0
@@ -66,8 +66,8 @@ pidUUIDa2=
 scale2=1.0
 type2=7
 unit2=kW
-userPid2=!Charger - HV Power
-userPidKey2=!Charger - HV Power/0
+userPid2=*Charger - DC Port KW
+userPidKey2=*Charger - DC Port KW/0
 x2=-2068
 y2=992
 #

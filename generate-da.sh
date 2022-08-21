@@ -69,6 +69,8 @@ units=( "V", "A", "kW" )
 if [[ $spec == "updated" ]]; then  # account for name changes
     upids[0]=${upids[0]/!/*}
     upids=("${upids[@]/Charger/Charger -}")
+    upids[2]=${upids[2]/!/*}
+    upids=("${upids[@]/HV Power/DC Port KW}")
 fi
 
 cid=0
